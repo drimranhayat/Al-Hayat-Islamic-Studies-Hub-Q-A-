@@ -1,0 +1,114 @@
+{
+  "id": "quran",
+  "title": "قرآن و علوم القرآن",
+  "icon": "book",
+  "description": "قرآن مجید اور علوم القرآن کے بنیادی، تاریخی، فنی اور معاصر مباحث۔",
+  "groups": [
+    {
+      "id": "intro-history-method",
+      "title": "تعارف، تاریخ اور منہج",
+      "icon": "layers",
+      "topics": [
+        {
+          "id": "uloom-al-quran-as-science",
+          "title": "علوم القرآن بطور علم",
+          "icon": "file",
+          "summary": "",
+          "questions": [
+            {
+              "q": "نمونہ سوال",
+              "a": "یہ نمونہ جواب ہے۔ اصل علمی مواد بعد میں Word فائل سے شامل کیا جائے گا۔"
+            }
+          ]
+        },
+        { "id": "history-of-uloom-al-quran", "title": "علوم القرآن کی تاریخ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "books-and-sources-of-uloom-al-quran", "title": "علوم القرآن کی کتب و مصادر", "icon": "file", "summary": "", "questions": [] },
+        { "id": "methods-of-uloom-al-quran", "title": "علوم القرآن کے مناہج", "icon": "file", "summary": "", "questions": [] },
+        { "id": "quran-introduction", "title": "قرآن مجید کا تعارف", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "wahi-nuzool-asbab",
+      "title": "وحی، نزول اور اسباب",
+      "icon": "layers",
+      "topics": [
+        { "id": "reality-of-wahi", "title": "وحی کی حقیقت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "nuzool-al-quran", "title": "نزولِ قرآن", "icon": "file", "summary": "", "questions": [] },
+        { "id": "special-discussions-of-nuzool", "title": "نزول کے خاص مباحث", "icon": "file", "summary": "", "questions": [] },
+        { "id": "makki-madani", "title": "مکی و مدنی", "icon": "file", "summary": "", "questions": [] },
+        { "id": "asbab-al-nuzool", "title": "اسبابِ نزول", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "writing-memorization-compilation",
+      "title": "کتابت، حفظ اور جمع قرآن",
+      "icon": "layers",
+      "topics": [
+        { "id": "kitabat-wahi", "title": "کتابت وحی", "icon": "file", "summary": "", "questions": [] },
+        { "id": "hifz-quran", "title": "حفظ قرآن", "icon": "file", "summary": "", "questions": [] },
+        { "id": "jam-al-quran", "title": "جمع قرآن", "icon": "file", "summary": "", "questions": [] },
+        { "id": "codification-of-uthmani-mushaf", "title": "تدوین مصحف عثمانی", "icon": "file", "summary": "", "questions": [] },
+        { "id": "mushaf-and-rasm-uthmani", "title": "مصحف اور رسم عثمانی", "icon": "file", "summary": "", "questions": [] },
+        { "id": "dabt-al-quran", "title": "ضبط قرآن", "icon": "file", "summary": "", "questions": [] },
+        { "id": "structure-of-quran", "title": "ساخت قرآن", "icon": "file", "summary": "", "questions": [] },
+        { "id": "arrangement-of-quran", "title": "ترتیب قرآن", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "qiraat-tajweed-adab",
+      "title": "قراءات، تجوید اور آداب تلاوت",
+      "icon": "layers",
+      "topics": [
+        { "id": "saba-ahruf", "title": "سبعہ احرف", "icon": "file", "summary": "", "questions": [] },
+        { "id": "qiraat-quran", "title": "قراءات قرآن", "icon": "file", "summary": "", "questions": [] },
+        { "id": "tajweed-tarteel", "title": "تجوید و ترتیل", "icon": "file", "summary": "", "questions": [] },
+        { "id": "waqf-ibtida", "title": "وقف و ابتدا", "icon": "file", "summary": "", "questions": [] },
+        { "id": "adab-tilawat-sama", "title": "آداب تلاوت و سماع", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "principles-language-understanding",
+      "title": "فہم قرآن کے اصولی و لسانی علوم",
+      "icon": "layers",
+      "topics": [
+        { "id": "nasikh-mansukh", "title": "ناسخ و منسوخ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "muhkam-mutashabih", "title": "محکم و متشابہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "dalalat-quran", "title": "دلالات قرآن", "icon": "file", "summary": "", "questions": [] },
+        { "id": "uloom-alfaz-quran", "title": "الفاظ قرآن کے علوم", "icon": "file", "summary": "", "questions": [] },
+        { "id": "uloom-maani-quran", "title": "معانی قرآن کے علوم", "icon": "file", "summary": "", "questions": [] },
+        { "id": "irab-lughat-quran", "title": "اعراب و لغت قرآن", "icon": "file", "summary": "", "questions": [] },
+        { "id": "balaghat-quran", "title": "بلاغت قرآن", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "quranic-styles-topics",
+      "title": "قرآنی اسالیب اور موضوعاتی علوم",
+      "icon": "layers",
+      "topics": [
+        { "id": "amthal-al-quran", "title": "امثال القرآن", "icon": "file", "summary": "", "questions": [] },
+        { "id": "aqsam-al-quran", "title": "اقسام القرآن", "icon": "file", "summary": "", "questions": [] },
+        { "id": "qasas-al-quran", "title": "قصص القرآن", "icon": "file", "summary": "", "questions": [] },
+        { "id": "jadal-al-quran", "title": "جدل القرآن", "icon": "file", "summary": "", "questions": [] },
+        { "id": "nazm-munasabat", "title": "نظم و مناسبت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "ijaz-al-quran", "title": "اعجاز القرآن", "icon": "file", "summary": "", "questions": [] },
+        { "id": "quranic-topics", "title": "قرآنی موضوعات", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "practical-educational-contemporary",
+      "title": "قرآن کا عملی، تعلیمی اور معاصر مطالعہ",
+      "icon": "layers",
+      "topics": [
+        { "id": "quran-and-sources-of-din", "title": "قرآن اور مصادر دین", "icon": "file", "summary": "", "questions": [] },
+        { "id": "translation-of-quran", "title": "ترجمہ قرآن", "icon": "file", "summary": "", "questions": [] },
+        { "id": "preservation-and-authenticity-of-quran", "title": "قرآن کی حفاظت و استناد", "icon": "file", "summary": "", "questions": [] },
+        { "id": "doubts-and-objections", "title": "شبہات و اعتراضات", "icon": "file", "summary": "", "questions": [] },
+        { "id": "adab-of-quran-understanding", "title": "قرآن فہمی کے آداب", "icon": "file", "summary": "", "questions": [] },
+        { "id": "quran-teaching", "title": "قرآن کی تعلیم و تدریس", "icon": "file", "summary": "", "questions": [] },
+        { "id": "indexes-and-service-sciences", "title": "فہارس و خدمتی علوم", "icon": "file", "summary": "", "questions": [] },
+        { "id": "digital-quran", "title": "ڈیجیٹل قرآن", "icon": "file", "summary": "", "questions": [] },
+        { "id": "contemporary-quranic-discussions", "title": "معاصر قرآنی مباحث", "icon": "file", "summary": "", "questions": [] }
+      ]
+    }
+  ]
+}

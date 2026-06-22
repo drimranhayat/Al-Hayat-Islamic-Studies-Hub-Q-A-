@@ -1,0 +1,94 @@
+{
+  "id": "tafsir",
+  "title": "تفسیر و اصولِ تفسیر",
+  "icon": "book-open",
+  "description": "تفسیر، اصولِ تفسیر، مصادر، مناہج، اختلافات، تحقیق اور تدریس۔",
+  "groups": [
+    {
+      "id": "intro-basic-concepts",
+      "title": "تعارف اور بنیادی تصورات",
+      "icon": "layers",
+      "topics": [
+        { "id": "tafsir-introduction", "title": "تفسیر کا تعارف", "icon": "file", "summary": "", "questions": [{ "q": "نمونہ سوال", "a": "یہ نمونہ جواب ہے۔ اصل علمی مواد بعد میں Word فائل سے شامل کیا جائے گا۔" }] },
+        { "id": "tafsir-taweel-tadabbur", "title": "تفسیر، تاویل اور تدبر", "icon": "file", "summary": "", "questions": [] },
+        { "id": "usool-tafsir-introduction", "title": "اصولِ تفسیر کا تعارف", "icon": "file", "summary": "", "questions": [] },
+        { "id": "mufassir-eligibility-adab", "title": "مفسر کی اہلیت اور آداب", "icon": "file", "summary": "", "questions": [] },
+        { "id": "mufassir-scholarly-eligibility", "title": "مفسر کی علمی اہلیت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "mufassir-adab-precautions", "title": "مفسر کے آداب و احتیاطیں", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "sources-of-tafsir",
+      "title": "مصادرِ تفسیر",
+      "icon": "layers",
+      "topics": [
+        { "id": "sources-of-tafsir", "title": "مصادرِ تفسیر", "icon": "file", "summary": "", "questions": [] },
+        { "id": "quran-by-quran-tafsir", "title": "قرآن سے قرآن کی تفسیر", "icon": "file", "summary": "", "questions": [] },
+        { "id": "tafsir-by-sunnah", "title": "سنت سے تفسیر", "icon": "file", "summary": "", "questions": [] },
+        { "id": "sahabah-tafsir-tradition", "title": "صحابہ کی تفسیری روایت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "tabieen-tafsir-tradition", "title": "تابعین کی تفسیری روایت", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "basic-tafsir-methods",
+      "title": "بنیادی تفسیری مناہج",
+      "icon": "layers",
+      "topics": [
+        { "id": "tafsir-bil-mathur", "title": "تفسیر بالمأثور", "icon": "file", "summary": "", "questions": [] },
+        { "id": "tafsir-bil-raye", "title": "تفسیر بالرائے", "icon": "file", "summary": "", "questions": [] },
+        { "id": "linguistic-tafsir", "title": "لغوی تفسیر", "icon": "file", "summary": "", "questions": [] },
+        { "id": "nahwi-sarfi-tafsir", "title": "نحوی و صرفی تفسیر", "icon": "file", "summary": "", "questions": [] },
+        { "id": "balaghi-adabi-tafsir", "title": "بلاغی و ادبی تفسیر", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "specialized-tafsir-trends",
+      "title": "تخصصی تفسیری رجحانات",
+      "icon": "layers",
+      "topics": [
+        { "id": "fiqhi-tafsir", "title": "فقہی تفسیر", "icon": "file", "summary": "", "questions": [] },
+        { "id": "kalami-itiqadi-tafsir", "title": "کلامی و اعتقادی تفسیر", "icon": "file", "summary": "", "questions": [] },
+        { "id": "akhlaqi-tarbiyati-tafsir", "title": "اخلاقی و تربیتی تفسیر", "icon": "file", "summary": "", "questions": [] },
+        { "id": "ishari-sufi-tafsir", "title": "اشاری و صوفی تفسیر", "icon": "file", "summary": "", "questions": [] },
+        { "id": "mawdui-tafsir", "title": "موضوعاتی تفسیر", "icon": "file", "summary": "", "questions": [] },
+        { "id": "nazmi-surati-tafsir", "title": "نظمی / سورتی تفسیر", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "difference-preference-caution",
+      "title": "اختلاف، ترجیح اور احتیاط",
+      "icon": "layers",
+      "topics": [
+        { "id": "tafsir-differences", "title": "تفسیری اختلافات", "icon": "file", "summary": "", "questions": [] },
+        { "id": "principles-of-preference-in-tafsir", "title": "اصولِ ترجیح فی التفسیر", "icon": "file", "summary": "", "questions": [] },
+        { "id": "israiliyyat-in-tafsir", "title": "اسرائیلیات کا تفسیری جائزہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "weak-and-fabricated-narrations", "title": "ضعیف و موضوع روایات", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "history-sources-contemporary",
+      "title": "تاریخ، مصادر اور معاصر مباحث",
+      "icon": "layers",
+      "topics": [
+        { "id": "major-classical-tafasir", "title": "اہم کلاسیکی تفاسیر", "icon": "file", "summary": "", "questions": [] },
+        { "id": "subcontinent-tafsir-tradition", "title": "برصغیر کی تفسیری روایت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "tafsir-schools-and-methods", "title": "تفسیری مکاتب و مناہج", "icon": "file", "summary": "", "questions": [] },
+        { "id": "modern-tafsir-trends", "title": "جدید تفسیری رجحانات", "icon": "file", "summary": "", "questions": [] },
+        { "id": "orientalism-and-tafsir", "title": "استشراق اور تفسیر", "icon": "file", "summary": "", "questions": [] },
+        { "id": "tafsir-and-contemporary-issues", "title": "تفسیر اور معاصر مسائل", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "research-teaching",
+      "title": "تحقیق و تدریس",
+      "icon": "layers",
+      "topics": [
+        { "id": "practical-method-of-tafsir", "title": "عملی منہجِ تفسیر", "icon": "file", "summary": "", "questions": [] },
+        { "id": "tafsir-research-method", "title": "تفسیری تحقیق کا طریقہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "wrong-tafsir-trends", "title": "غلط تفسیری رجحانات", "icon": "file", "summary": "", "questions": [] },
+        { "id": "teaching-tafsir-and-questions", "title": "تدریسِ تفسیر اور سوالات", "icon": "file", "summary": "", "questions": [] },
+        { "id": "tafsir-sources-references", "title": "مصادر و مراجعِ تفسیر", "icon": "file", "summary": "", "questions": [] }
+      ]
+    }
+  ]
+}

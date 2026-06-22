@@ -1,0 +1,97 @@
+{
+  "id": "religions-sects",
+  "title": "مطالعہ مذاہب و فرق",
+  "icon": "globe",
+  "description": "عالمی مذاہب، اسلامی فرق، تقابلی مطالعہ، دعوت، مکالمہ اور معاصر مسائل۔",
+  "groups": [
+    {
+      "id": "intro-method",
+      "title": "تعارف اور منہج",
+      "icon": "layers",
+      "topics": [
+        { "id": "comparative-religions-intro", "title": "تقابلِ ادیان کا تعارف", "icon": "file", "summary": "", "questions": [{ "q": "نمونہ سوال", "a": "یہ نمونہ جواب ہے۔ اصل علمی مواد بعد میں Word فائل سے شامل کیا جائے گا۔" }] },
+        { "id": "method-of-studying-religions", "title": "مطالعۂ ادیان کا منہج", "icon": "file", "summary": "", "questions": [] },
+        { "id": "islamic-concept-of-din", "title": "اسلام کا تصورِ دین", "icon": "file", "summary": "", "questions": [] },
+        { "id": "basic-types-of-religions", "title": "مذاہب کی بنیادی اقسام", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "world-religions",
+      "title": "عالمی مذاہب",
+      "icon": "layers",
+      "topics": [
+        { "id": "ancient-religions", "title": "قدیم مذاہب", "icon": "file", "summary": "", "questions": [] },
+        { "id": "judaism", "title": "یہودیت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "christianity", "title": "عیسائیت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "islam-judaism-christianity", "title": "اسلام، یہودیت اور عیسائیت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "hinduism", "title": "ہندو مت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "buddhism", "title": "بدھ مت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "jainism", "title": "جین مت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "sikhism", "title": "سکھ مت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "chinese-eastern-religions", "title": "چینی و مشرقی ادیان", "icon": "file", "summary": "", "questions": [] },
+        { "id": "zoroastrianism-iranian-religions", "title": "زرتشتیت اور ایرانی مذاہب", "icon": "file", "summary": "", "questions": [] },
+        { "id": "modern-religious-movements", "title": "جدید مذہبی تحریکیں", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "comparative-dawah-discussions",
+      "title": "تقابلی اور دعوتی مباحث",
+      "icon": "layers",
+      "topics": [
+        { "id": "shared-discussions-of-religions", "title": "ادیان کے مشترک مباحث", "icon": "file", "summary": "", "questions": [] },
+        { "id": "islam-and-other-religions", "title": "اسلام اور دیگر ادیان", "icon": "file", "summary": "", "questions": [] },
+        { "id": "interfaith-dialogue", "title": "بین المذاہب مکالمہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "orientalism-and-study-of-islam", "title": "استشراق اور مطالعۂ اسلام", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "intro-to-islamic-sects",
+      "title": "اسلامی فرق کا تعارف",
+      "icon": "layers",
+      "topics": [
+        { "id": "islamic-sects-intro", "title": "اسلامی فرق کا تعارف", "icon": "file", "summary": "", "questions": [] },
+        { "id": "ahl-al-sunnah-wal-jamaah", "title": "اہلِ سنت والجماعت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "ahl-sunnah-kalami-methods", "title": "اہلِ سنت کے کلامی مناہج", "icon": "file", "summary": "", "questions": [] },
+        { "id": "status-of-fiqhi-madhahib", "title": "فقہی مذاہب کا مقام", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "ancient-islamic-sects",
+      "title": "قدیم اسلامی فرق",
+      "icon": "layers",
+      "topics": [
+        { "id": "khawarij", "title": "خوارج", "icon": "file", "summary": "", "questions": [] },
+        { "id": "shia", "title": "شیعہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "mutazilah", "title": "معتزلہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "murjiah", "title": "مرجئہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "jabriyah-qadariyah-jahmiyah", "title": "جبریہ، قدریہ اور جہمیہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "batiniyyah-ismaili-thought", "title": "باطنیہ اور اسماعیلی فکر", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "subcontinent-tasawwuf-modern-movements",
+      "title": "برصغیر، تصوف اور جدید تحریکیں",
+      "icon": "layers",
+      "topics": [
+        { "id": "sufi-orders-extreme-trends", "title": "تصوفی سلسلے اور غالی رجحانات", "icon": "file", "summary": "", "questions": [] },
+        { "id": "subcontinent-religious-schools", "title": "برصغیر کے مذہبی مسالک", "icon": "file", "summary": "", "questions": [] },
+        { "id": "qadianiyat", "title": "قادیانیت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "modern-islamic-movements", "title": "جدید اسلامی تحریکیں", "icon": "file", "summary": "", "questions": [] },
+        { "id": "modern-sectarianism", "title": "جدید فرقہ واریت", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "principles-contemporary-research",
+      "title": "اصول، معاصر مسائل اور تحقیق",
+      "icon": "layers",
+      "topics": [
+        { "id": "principle-of-studying-sects", "title": "فرقوں کے مطالعے کا اصول", "icon": "file", "summary": "", "questions": [] },
+        { "id": "method-of-comparative-analysis", "title": "تقابلی تجزیہ کا منہج", "icon": "file", "summary": "", "questions": [] },
+        { "id": "contemporary-global-religious-issues", "title": "معاصر عالمی مذہبی مسائل", "icon": "file", "summary": "", "questions": [] },
+        { "id": "dawah-and-dialogue", "title": "دعوت اور مکالمہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "research-method", "title": "تحقیق کا منہج", "icon": "file", "summary": "", "questions": [] },
+        { "id": "major-sources-references", "title": "اہم مصادر و مراجع", "icon": "file", "summary": "", "questions": [] }
+      ]
+    }
+  ]
+}

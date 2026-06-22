@@ -1,0 +1,115 @@
+{
+  "id": "aqeedah",
+  "title": "عقائد و علم الکلام",
+  "icon": "light",
+  "description": "ایمان، توحید، نبوت، آخرت، تقدیر، علم الکلام، فرق اور جدید اعتقادی مباحث۔",
+  "groups": [
+    {
+      "id": "intro-sources-method",
+      "title": "تعارف، مصادر اور منہج",
+      "icon": "layers",
+      "topics": [
+        { "id": "aqeedah-iman-kalam-intro", "title": "عقیدہ، ایمان اور علم الکلام کا تعارف", "icon": "file", "summary": "", "questions": [{ "q": "نمونہ سوال", "a": "یہ نمونہ جواب ہے۔ اصل علمی مواد بعد میں Word فائل سے شامل کیا جائے گا۔" }] },
+        { "id": "need-importance-of-aqeedah", "title": "عقیدہ کی ضرورت و اہمیت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "sources-of-aqeedah", "title": "مصادرِ عقیدہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "reason-and-revelation-in-aqeedah", "title": "عقیدہ میں عقل و نقل", "icon": "file", "summary": "", "questions": [] },
+        { "id": "iman-islam-ihsan", "title": "ایمان، اسلام اور احسان", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "iman-tawhid",
+      "title": "ایمان اور توحید",
+      "icon": "layers",
+      "topics": [
+        { "id": "arkan-iman", "title": "ارکانِ ایمان", "icon": "file", "summary": "", "questions": [] },
+        { "id": "comprehensive-concept-of-tawhid", "title": "توحید کا جامع تصور", "icon": "file", "summary": "", "questions": [] },
+        { "id": "tawhid-rububiyyah", "title": "توحیدِ ربوبیت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "tawhid-uluhiyyah", "title": "توحیدِ الوہیت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "tawhid-asma-sifat", "title": "توحیدِ اسماء و صفات", "icon": "file", "summary": "", "questions": [] },
+        { "id": "dhaat-sifat-bari", "title": "ذات و صفاتِ باری تعالیٰ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "kalam-ilahi", "title": "مسئلہ کلامِ الٰہی", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "shirk-worship-prophethood",
+      "title": "شرک، عبادت اور نبوت",
+      "icon": "layers",
+      "topics": [
+        { "id": "shirk-kufr-ilhad", "title": "شرک، کفر اور الحاد", "icon": "file", "summary": "", "questions": [] },
+        { "id": "worship-and-limits", "title": "عبادت اور اس کی حدود", "icon": "file", "summary": "", "questions": [] },
+        { "id": "tawassul-shafaat-wasilah", "title": "توسل، شفاعت اور وسیلہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "iman-bil-rusul", "title": "ایمان بالرسل", "icon": "file", "summary": "", "questions": [] },
+        { "id": "miracles-karamat-istidraj", "title": "معجزات، کرامات اور استدراج", "icon": "file", "summary": "", "questions": [] },
+        { "id": "khatm-nubuwwat", "title": "ختمِ نبوت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "love-obedience-of-prophet", "title": "محبت و اطاعتِ رسول ﷺ", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "unseen-hereafter-destiny",
+      "title": "غیب، آخرت اور تقدیر",
+      "icon": "layers",
+      "topics": [
+        { "id": "iman-bil-malaikah", "title": "ایمان بالملائکہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "jinn-shaytan-unseen-creatures", "title": "جن، شیطان اور غیبی مخلوقات", "icon": "file", "summary": "", "questions": [] },
+        { "id": "iman-bil-kutub", "title": "ایمان بالکتب", "icon": "file", "summary": "", "questions": [] },
+        { "id": "iman-bil-akhirah", "title": "ایمان بالآخرت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "jannah-jahannam-shafaat", "title": "جنت، جہنم اور شفاعت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "signs-of-qiyamah", "title": "علاماتِ قیامت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "qada-qadar", "title": "قضاء و قدر", "icon": "file", "summary": "", "questions": [] },
+        { "id": "jabr-ikhtiyar", "title": "جبر و اختیار", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "iman-jamaat-ummah",
+      "title": "ایمان، جماعت اور امت",
+      "icon": "layers",
+      "topics": [
+        { "id": "iman-action-major-sin", "title": "ایمان، عمل اور کبیرہ گناہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "kufr-nifaq-takfir", "title": "کفر، نفاق اور تکفیر", "icon": "file", "summary": "", "questions": [] },
+        { "id": "bidah-creedal-deviation", "title": "بدعت اور اعتقادی انحراف", "icon": "file", "summary": "", "questions": [] },
+        { "id": "aqeedah-of-sahabah", "title": "صحابہ کرام کا عقیدہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "ahl-bayt-ummahat", "title": "اہلِ بیت اور امہات المؤمنین", "icon": "file", "summary": "", "questions": [] },
+        { "id": "imamah-khilafah-jamaat", "title": "امامت، خلافت اور جماعت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "wala-bara", "title": "ولاء و براء", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "kalam-sects-philosophy",
+      "title": "علم الکلام، فرق اور فلسفی مباحث",
+      "icon": "layers",
+      "topics": [
+        { "id": "origin-development-of-kalam", "title": "علم الکلام کا آغاز و ارتقا", "icon": "file", "summary": "", "questions": [] },
+        { "id": "kalami-schools", "title": "کلامی مکاتب", "icon": "file", "summary": "", "questions": [] },
+        { "id": "classical-kalami-issues", "title": "کلاسیکی کلامی مسائل", "icon": "file", "summary": "", "questions": [] },
+        { "id": "sects-and-false-ideas", "title": "فرق اور باطل نظریات", "icon": "file", "summary": "", "questions": [] },
+        { "id": "tasawwuf-and-aqeedah", "title": "تصوف اور عقیدہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "philosophy-and-aqeedah", "title": "فلسفہ اور عقیدہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "proofs-for-existence-of-allah", "title": "وجودِ باری تعالیٰ کے دلائل", "icon": "file", "summary": "", "questions": [] },
+        { "id": "problem-of-evil-and-suffering", "title": "مسئلہ شر و تکلیف", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "modern-creedal-discussions",
+      "title": "جدید اعتقادی مباحث",
+      "icon": "layers",
+      "topics": [
+        { "id": "religion-and-science", "title": "مذہب اور سائنس", "icon": "file", "summary": "", "questions": [] },
+        { "id": "modern-atheism-materialism", "title": "جدید الحاد اور مادیت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "secularism-liberalism-aqeedah", "title": "سیکولرزم، لبرلزم اور عقیدہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "religious-pluralism", "title": "مذہبی تکثیریت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "modern-spiritual-esoteric-movements", "title": "جدید روحانی و باطنی تحریکیں", "icon": "file", "summary": "", "questions": [] },
+        { "id": "contemporary-creedal-doubts", "title": "معاصر اعتقادی شبہات", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "education-research-references",
+      "title": "تعلیم، تحقیق اور مراجع",
+      "icon": "layers",
+      "topics": [
+        { "id": "method-of-teaching-aqeedah", "title": "عقیدہ کی تعلیم کا منہج", "icon": "file", "summary": "", "questions": [] },
+        { "id": "method-of-aqeedah-research", "title": "عقیدہ کی تحقیق کا منہج", "icon": "file", "summary": "", "questions": [] },
+        { "id": "major-sources-references", "title": "اہم مصادر و مراجع", "icon": "file", "summary": "", "questions": [] }
+      ]
+    }
+  ]
+}

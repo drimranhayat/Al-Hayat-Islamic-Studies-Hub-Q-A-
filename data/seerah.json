@@ -1,0 +1,114 @@
+{
+  "id": "seerah",
+  "title": "سیرت و تاریخِ اسلام",
+  "icon": "mosque",
+  "description": "سیرت نبوی ﷺ، خلافت راشدہ، اسلامی تاریخ، تہذیب اور معاصر مطالعہ۔",
+  "groups": [
+    {
+      "id": "intro-sources-background",
+      "title": "تعارف، مصادر اور پس منظر",
+      "icon": "layers",
+      "topics": [
+        { "id": "seerah-history-intro", "title": "سیرت و تاریخِ اسلام کا تعارف", "icon": "file", "summary": "", "questions": [{ "q": "نمونہ سوال", "a": "یہ نمونہ جواب ہے۔ اصل علمی مواد بعد میں Word فائل سے شامل کیا جائے گا۔" }] },
+        { "id": "sources-of-seerah-history", "title": "مصادرِ سیرت و تاریخ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "geography-of-arabian-peninsula", "title": "جزیرۂ عرب کا جغرافیہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "arab-before-islam", "title": "عرب قبل از اسلام", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "birth-to-prophethood",
+      "title": "ولادت سے بعثت تک",
+      "icon": "layers",
+      "topics": [
+        { "id": "prophetic-lineage-family", "title": "نسبِ نبوی ﷺ اور خاندان", "icon": "file", "summary": "", "questions": [] },
+        { "id": "birth-and-childhood", "title": "ولادت و بچپن", "icon": "file", "summary": "", "questions": [] },
+        { "id": "youth-and-moral-greatness", "title": "جوانی اور اخلاقی عظمت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "prophethood-and-beginning-of-wahi", "title": "بعثت و آغازِ وحی", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "makkan-period",
+      "title": "مکی دور",
+      "icon": "layers",
+      "topics": [
+        { "id": "makkan-period-private-dawah", "title": "مکی دور: خفیہ دعوت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "makkan-period-public-dawah", "title": "مکی دور: علانیہ دعوت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "makkan-period-trials", "title": "مکی دور: آزمائشیں", "icon": "file", "summary": "", "questions": [] },
+        { "id": "preparation-for-hijrah", "title": "ہجرت کی تیاری", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "madinan-period-society",
+      "title": "مدنی دور اور اسلامی معاشرہ",
+      "icon": "layers",
+      "topics": [
+        { "id": "hijrah-to-madinah", "title": "ہجرتِ مدینہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "islamic-society-in-madinah", "title": "مدینہ میں اسلامی معاشرہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "charter-of-madinah", "title": "میثاقِ مدینہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "madinan-legislative-social-formation", "title": "مدنی دور کی تشریعی و معاشرتی تشکیل", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "battles-peace-conquest",
+      "title": "غزوات، صلح اور فتح",
+      "icon": "layers",
+      "topics": [
+        { "id": "ghazawat-saraya-intro", "title": "غزوات و سرایا کا تعارف", "icon": "file", "summary": "", "questions": [] },
+        { "id": "ghazwah-badr", "title": "غزوۂ بدر", "icon": "file", "summary": "", "questions": [] },
+        { "id": "ghazwah-uhud", "title": "غزوۂ احد", "icon": "file", "summary": "", "questions": [] },
+        { "id": "ghazwah-khandaq", "title": "غزوۂ خندق", "icon": "file", "summary": "", "questions": [] },
+        { "id": "sulh-hudaybiyyah", "title": "صلح حدیبیہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "dawah-letters-international-relations", "title": "دعوتی خطوط اور بین الاقوامی تعلقات", "icon": "file", "summary": "", "questions": [] },
+        { "id": "conquest-of-makkah", "title": "فتح مکہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "hunayn-taif-tabuk", "title": "غزوۂ حنین، طائف اور تبوک", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "final-period-shamail-family",
+      "title": "آخری دور، شمائل اور خاندان",
+      "icon": "layers",
+      "topics": [
+        { "id": "hajjat-al-wada", "title": "حجۃ الوداع", "icon": "file", "summary": "", "questions": [] },
+        { "id": "prophetic-demise", "title": "وصالِ نبوی ﷺ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "shamail-khasais-nabawi", "title": "شمائل و خصائصِ نبوی ﷺ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "azwaj-ahl-bayt", "title": "ازواجِ مطہرات اور اہلِ بیت", "icon": "file", "summary": "", "questions": [] },
+        { "id": "sahabah-introduction", "title": "صحابہ کرام کا تعارف", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "khilafat-rashidah",
+      "title": "خلافتِ راشدہ",
+      "icon": "layers",
+      "topics": [
+        { "id": "khilafat-rashidah-intro", "title": "خلافتِ راشدہ کا تعارف", "icon": "file", "summary": "", "questions": [] },
+        { "id": "abu-bakr-era", "title": "حضرت ابوبکرؓ کا دور", "icon": "file", "summary": "", "questions": [] },
+        { "id": "umar-era", "title": "حضرت عمرؓ کا دور", "icon": "file", "summary": "", "questions": [] },
+        { "id": "uthman-era", "title": "حضرت عثمانؓ کا دور", "icon": "file", "summary": "", "questions": [] },
+        { "id": "ali-era", "title": "حضرت علیؓ کا دور", "icon": "file", "summary": "", "questions": [] },
+        { "id": "system-of-khilafat-rashidah", "title": "خلافتِ راشدہ کا نظام", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "islamic-history-civilization-contemporary",
+      "title": "اسلامی تاریخ، تہذیب اور معاصر مطالعہ",
+      "icon": "layers",
+      "topics": [
+        { "id": "umayyad-era", "title": "عہدِ بنو امیہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "abbasid-era", "title": "عہدِ بنو عباس", "icon": "file", "summary": "", "questions": [] },
+        { "id": "andalus-western-islam", "title": "اندلس اور مغربِ اسلامی", "icon": "file", "summary": "", "questions": [] },
+        { "id": "fatimid-ayyubid-mamluk-ottoman", "title": "فاطمی، ایوبی، مملوک اور عثمانی ادوار", "icon": "file", "summary": "", "questions": [] },
+        { "id": "islamic-history-in-subcontinent", "title": "برصغیر میں اسلامی تاریخ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "islamic-civilization", "title": "اسلامی تہذیب و تمدن", "icon": "file", "summary": "", "questions": [] },
+        { "id": "islamic-institutions", "title": "اسلامی ادارے", "icon": "file", "summary": "", "questions": [] },
+        { "id": "islamic-society", "title": "اسلامی معاشرہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "scholarly-intellectual-movements", "title": "علمی و فکری تحریکیں", "icon": "file", "summary": "", "questions": [] },
+        { "id": "causes-of-decline", "title": "زوالِ اسلامی تاریخ کے اسباب", "icon": "file", "summary": "", "questions": [] },
+        { "id": "reform-revival-movements", "title": "اصلاحی و تجدیدی تحریکیں", "icon": "file", "summary": "", "questions": [] },
+        { "id": "modern-muslim-world", "title": "جدید مسلم دنیا", "icon": "file", "summary": "", "questions": [] },
+        { "id": "practical-lessons-from-seerah-history", "title": "سیرت و تاریخ سے عملی اسباق", "icon": "file", "summary": "", "questions": [] },
+        { "id": "research-method-of-seerah-history", "title": "تحقیقِ سیرت و تاریخ کا منہج", "icon": "file", "summary": "", "questions": [] },
+        { "id": "major-sources-references", "title": "اہم مصادر و مراجع", "icon": "file", "summary": "", "questions": [] }
+      ]
+    }
+  ]
+}

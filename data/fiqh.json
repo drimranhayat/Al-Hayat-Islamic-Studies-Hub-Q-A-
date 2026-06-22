@@ -1,0 +1,97 @@
+{
+  "id": "fiqh",
+  "title": "فقہ و اصولِ فقہ",
+  "icon": "scale",
+  "description": "فقہ، اصول، مصادرِ شریعت، دلالات، قواعد، اجتہاد، فتویٰ اور معاصر فقہی مسائل۔",
+  "groups": [
+    {
+      "id": "intro-history-basic-concepts",
+      "title": "تعارف، تاریخ اور بنیادی تصورات",
+      "icon": "layers",
+      "topics": [
+        { "id": "fiqh-usool-intro", "title": "فقہ و اصولِ فقہ کا تعارف", "icon": "file", "summary": "", "questions": [{ "q": "نمونہ سوال", "a": "یہ نمونہ جواب ہے۔ اصل علمی مواد بعد میں Word فائل سے شامل کیا جائے گا۔" }] },
+        { "id": "shariah-fiqh-law-fatwa-qada", "title": "شریعت، فقہ، قانون، فتویٰ اور قضاء", "icon": "file", "summary": "", "questions": [] },
+        { "id": "basic-branches-of-fiqh", "title": "فقہ کے بنیادی شعبے", "icon": "file", "summary": "", "questions": [] },
+        { "id": "history-of-fiqh-usool", "title": "تاریخِ فقہ و اصولِ فقہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "methods-of-usooliyin", "title": "اصولیین کے مناہج", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "hukm-shari-ahliyyah",
+      "title": "حکم شرعی اور اہلیت",
+      "icon": "layers",
+      "topics": [
+        { "id": "basic-concept-of-hukm-shari", "title": "حکم شرعی کا بنیادی تصور", "icon": "file", "summary": "", "questions": [] },
+        { "id": "hukm-taklifi", "title": "حکمِ تکلیفی", "icon": "file", "summary": "", "questions": [] },
+        { "id": "hukm-wadi", "title": "حکمِ وضعی", "icon": "file", "summary": "", "questions": [] },
+        { "id": "ahliyyah-and-awarid", "title": "اہلیت اور عوارضِ اہلیت", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "sources-of-shariah",
+      "title": "مصادرِ شریعت",
+      "icon": "layers",
+      "topics": [
+        { "id": "sources-of-shariah-intro", "title": "مصادرِ شریعت کا تعارف", "icon": "file", "summary": "", "questions": [] },
+        { "id": "quran-as-source-of-rulings", "title": "قرآن بطور مصدرِ احکام", "icon": "file", "summary": "", "questions": [] },
+        { "id": "sunnah-as-source-of-rulings", "title": "سنت بطور مصدرِ احکام", "icon": "file", "summary": "", "questions": [] },
+        { "id": "ijma", "title": "اجماع", "icon": "file", "summary": "", "questions": [] },
+        { "id": "qiyas", "title": "قیاس", "icon": "file", "summary": "", "questions": [] },
+        { "id": "illat-hikmah-manat", "title": "علت، حکمت اور مناط", "icon": "file", "summary": "", "questions": [] },
+        { "id": "subsidiary-ijtihadi-sources", "title": "تبعی و اجتہادی مصادر", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "interpretation-dalalah-principles",
+      "title": "اصولِ تعبیر و دلالت",
+      "icon": "layers",
+      "topics": [
+        { "id": "principles-of-interpretation", "title": "اصولِ تعبیر و تشریح", "icon": "file", "summary": "", "questions": [] },
+        { "id": "discussion-of-words-in-usool", "title": "الفاظ کی اصولی بحث", "icon": "file", "summary": "", "questions": [] },
+        { "id": "amr-nahy", "title": "امر و نہی", "icon": "file", "summary": "", "questions": [] },
+        { "id": "aam-khaas-mutlaq-muqayyad", "title": "عام و خاص، مطلق و مقید", "icon": "file", "summary": "", "questions": [] },
+        { "id": "dalalat-al-alfaz", "title": "دلالاتِ الفاظ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "methods-of-dalalah", "title": "دلالت کے طریقے", "icon": "file", "summary": "", "questions": [] },
+        { "id": "mantuq-mafhum", "title": "منطوق و مفہوم", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "conflict-rules-maqasid",
+      "title": "تعارض، قواعد اور مقاصد",
+      "icon": "layers",
+      "topics": [
+        { "id": "taarud-tarjeeh", "title": "تعارض و ترجیح", "icon": "file", "summary": "", "questions": [] },
+        { "id": "naskh", "title": "نسخ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "qawaid-fiqhiyyah", "title": "قواعدِ فقہیہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "furuq-fiqhiyyah-dawabit", "title": "فروقِ فقہیہ اور ضوابط", "icon": "file", "summary": "", "questions": [] },
+        { "id": "maqasid-al-shariah", "title": "مقاصد الشریعہ", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "ijtihad-taqlid-madhahib",
+      "title": "اجتہاد، تقلید اور مذاہب",
+      "icon": "layers",
+      "topics": [
+        { "id": "ijtihad", "title": "اجتہاد", "icon": "file", "summary": "", "questions": [] },
+        { "id": "taqlid-ittiba", "title": "تقلید اور اتباع", "icon": "file", "summary": "", "questions": [] },
+        { "id": "ikhtilaf-fuqaha", "title": "اختلافِ فقہاء", "icon": "file", "summary": "", "questions": [] },
+        { "id": "fiqhi-madhahib", "title": "فقہی مذاہب", "icon": "file", "summary": "", "questions": [] },
+        { "id": "comparative-fiqh", "title": "تقابلی فقہ", "icon": "file", "summary": "", "questions": [] }
+      ]
+    },
+    {
+      "id": "fatwa-qada-contemporary",
+      "title": "فتویٰ، قضاء اور معاصر فقہ",
+      "icon": "layers",
+      "topics": [
+        { "id": "fatwa", "title": "فتویٰ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "qada-judicial-fiqh", "title": "قضاء اور عدالتی فقہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "taqnin-fiqh", "title": "تقنینِ فقہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "applied-fiqh", "title": "اطلاقی فقہ", "icon": "file", "summary": "", "questions": [] },
+        { "id": "contemporary-fiqhi-issues", "title": "معاصر فقہی مسائل", "icon": "file", "summary": "", "questions": [] },
+        { "id": "fiqhi-research-method", "title": "فقہی تحقیق کا منہج", "icon": "file", "summary": "", "questions": [] },
+        { "id": "major-sources-references", "title": "اہم مصادر و مراجع", "icon": "file", "summary": "", "questions": [] }
+      ]
+    }
+  ]
+}

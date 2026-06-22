@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>تلاش | الحیات مرکز علوم اسلامیہ</title>
+  <meta name="description" content="اسلامی علوم کے تمام مضامین، گروپس، موضوعات، سوالات اور جوابات میں تلاش">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="search">
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="صفحۂ اول">
+      <span class="brand-mark" aria-hidden="true">ح</span>
+      <span class="brand-copy"><strong>الحیات مرکز علوم اسلامیہ</strong><small>علمِ وحی کی روشنی میں فہمِ دین، تعمیرِ فکر اور اصلاحِ زندگی</small></span>
+    </a>
+    <nav class="top-actions" aria-label="بنیادی روابط">
+      <a class="icon-link" href="index.html" aria-label="صفحۂ اول"><span data-icon="home"></span><span>صفحۂ اول</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-title">
+      <p class="eyebrow">ویب سائٹ تلاش</p>
+      <h1>تمام مضامین میں تلاش کریں</h1>
+    </section>
+    <section class="search-panel">
+      <form id="search-form" class="search-form" role="search">
+        <div class="search-box">
+          <input id="search-input" name="q" type="search" placeholder="موضوع، سوال، جواب یا عربی عبارت">
+          <button type="submit"><span data-icon="search"></span><span>تلاش</span></button>
+        </div>
+        <label for="subject-filter">مضمون منتخب کریں</label>
+        <select id="subject-filter" name="subject"></select>
+      </form>
+    </section>
+    <section id="search-summary" class="search-summary" aria-live="polite"></section>
+    <section id="search-results" class="search-results" aria-live="polite"></section>
+  </main>
+
+  <footer class="site-footer">
+    <p>تلاش اسی JSON مواد سے چلتی ہے جس سے صفحات بنتے ہیں۔</p>
+  </footer>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/search.js"></script>
+</body>
+</html>
