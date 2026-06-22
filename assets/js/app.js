@@ -262,6 +262,10 @@ async function renderTopic() {
           <p class="eyebrow">${escapeHTML(group.title)}</p>
           <h1>${escapeHTML(topic.title)}</h1>
           <p class="topic-summary">${escapeHTML(topic.summary || "اس موضوع کا تفصیلی مستند مواد آئندہ Word فائل سے شامل کیا جائے گا۔")}</p>
+          <div class="topic-stats">
+            <span class="stat-chip">${icon("list")} ${questions.length} سوالات</span>
+            <span class="stat-chip">${icon("sparkles")} جواب بٹن سے کھلیں گے</span>
+          </div>
         </div>
       </header>
       <div class="qa-list">
@@ -349,10 +353,40 @@ function bindClickSound() {
   });
 }
 
+function bindScrollProgress() {
+  const update = () => {
+    const total = document.documentElement.scrollHeight - window.innerHeight;
+    const progress = total > 0 ? (window.scrollY / total) * 100 : 0;
+    document.documentElement.style.setProperty("--scroll-progress", `${Math.min(100, Math.max(0, progress))}%`);
+  };
+  update();
+  window.addEventListener("scroll", update, { passive: true });
+  window.addEventListener("resize", update);
+}
+
+function bindCardTilt() {
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  if (!window.matchMedia("(hover: hover) and (pointer: fine)").matches) return;
+  document.addEventListener("pointermove", (event) => {
+    const card = event.target.closest(".subject-card");
+    if (!card) return;
+    const rect = card.getBoundingClientRect();
+    const x = ((event.clientX - rect.left) / rect.width - 0.5) * -6;
+    const y = ((event.clientY - rect.top) / rect.height - 0.5) * 6;
+    card.style.transform = `translateY(-5px) rotateX(${y}deg) rotateY(${x}deg)`;
+  });
+  document.addEventListener("pointerleave", (event) => {
+    const card = event.target.closest?.(".subject-card");
+    if (card) card.style.transform = "";
+  }, true);
+}
+
 function boot() {
   hydrateStaticIcons();
   bindAccordions();
   bindClickSound();
+  bindScrollProgress();
+  bindCardTilt();
   const page = document.body.dataset.page;
   if (page === "home") renderHome();
   if (page === "subject") renderSubject();
