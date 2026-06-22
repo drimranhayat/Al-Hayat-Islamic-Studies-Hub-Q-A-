@@ -364,29 +364,11 @@ function bindScrollProgress() {
   window.addEventListener("resize", update);
 }
 
-function bindCardTilt() {
-  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-  if (!window.matchMedia("(hover: hover) and (pointer: fine)").matches) return;
-  document.addEventListener("pointermove", (event) => {
-    const card = event.target.closest(".subject-card");
-    if (!card) return;
-    const rect = card.getBoundingClientRect();
-    const x = ((event.clientX - rect.left) / rect.width - 0.5) * -6;
-    const y = ((event.clientY - rect.top) / rect.height - 0.5) * 6;
-    card.style.transform = `translateY(-5px) rotateX(${y}deg) rotateY(${x}deg)`;
-  });
-  document.addEventListener("pointerleave", (event) => {
-    const card = event.target.closest?.(".subject-card");
-    if (card) card.style.transform = "";
-  }, true);
-}
-
 function boot() {
   hydrateStaticIcons();
   bindAccordions();
   bindClickSound();
   bindScrollProgress();
-  bindCardTilt();
   const page = document.body.dataset.page;
   if (page === "home") renderHome();
   if (page === "subject") renderSubject();

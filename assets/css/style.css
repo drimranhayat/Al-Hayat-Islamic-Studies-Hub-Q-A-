@@ -209,7 +209,6 @@ button:hover,
 .button:hover,
 .subject-card:hover,
 .topic-button:hover {
-  transform: translateY(-1px);
   border-color: var(--gold);
 }
 
@@ -817,7 +816,6 @@ button:active,
 
 .subjects-grid {
   gap: 18px;
-  perspective: 1200px;
 }
 
 .subject-card,
@@ -838,8 +836,6 @@ button:active,
   background:
     linear-gradient(180deg, rgba(255,255,255,0.95), rgba(255,255,255,0.9)),
     linear-gradient(135deg, var(--theme-soft), #fff);
-  transform-style: preserve-3d;
-  will-change: transform;
 }
 
 .subject-card::before {
@@ -866,11 +862,10 @@ button:active,
 .subject-card .card-icon,
 .topic-head .card-icon {
   transition: transform 220ms ease, box-shadow 220ms ease;
-  transform: translateZ(14px);
 }
 
 .subject-card:hover {
-  transform: translateY(-5px);
+  border-color: color-mix(in srgb, var(--theme) 42%, var(--gold));
 }
 
 .subject-card:hover::before {
@@ -907,7 +902,8 @@ button:active,
 .subject-card h3,
 .subject-card p,
 .subject-card .meta-row {
-  transform: translateZ(8px);
+  position: relative;
+  z-index: 1;
 }
 
 .subject-card p,
@@ -991,6 +987,7 @@ button:active,
   content: "";
   position: absolute;
   inset: 0;
+  pointer-events: none;
   opacity: 0;
   background: linear-gradient(110deg, transparent 0%, rgba(255,255,255,0.52) 45%, transparent 70%);
   transform: translateX(45%);
@@ -1055,7 +1052,6 @@ button:active,
 }
 
 .topic-button:hover {
-  transform: translateY(-3px) scale(1.01);
   background:
     linear-gradient(135deg, rgba(255,255,255,0.98), color-mix(in srgb, var(--theme-soft) 62%, #fff)),
     linear-gradient(90deg, color-mix(in srgb, var(--theme) 16%, transparent), transparent);
