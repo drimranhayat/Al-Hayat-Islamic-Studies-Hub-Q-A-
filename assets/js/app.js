@@ -161,6 +161,7 @@ function setError(target, message) {
 function formatArabicSnippets(text) {
   return text
     .replace(/﴿([^﴾]+)﴾/g, '<span class="arabic-block" lang="ar" dir="rtl">﴿$1﴾</span>')
+    .replace(/«([^»]*[\u0600-\u06FF][^»]*)»/g, '<span class="arabic-quote" lang="ar" dir="rtl">«$1»</span>')
     .replace(/“([^”]*[\u064B-\u065F\u0670][^”]*)”/g, '<span class="arabic-quote" lang="ar" dir="rtl">“$1”</span>');
 }
 
