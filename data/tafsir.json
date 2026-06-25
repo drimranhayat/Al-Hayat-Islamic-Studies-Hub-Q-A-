@@ -2,92 +2,318 @@
   "id": "tafsir",
   "title": "تفسیر و اصولِ تفسیر",
   "icon": "book-open",
-  "description": "تفسیر، اصولِ تفسیر، مصادر، مناہج، اختلافات، تحقیق اور تدریس۔",
+  "description": "تفسیر قرآن، اصولِ تفسیر، مصادرِ تفسیر، مناہجِ مفسرین، کلاسیکی و جدید تفسیری مباحث، تفسیری تحقیق اور تدریس کا جامع علمی ذخیرہ۔",
+  "language": "ur",
+  "direction": "rtl",
+  "schema_version": "1.0",
+  "content_type": "question_answer_bank",
   "groups": [
     {
-      "id": "intro-basic-concepts",
-      "title": "تعارف اور بنیادی تصورات",
+      "id": "intro-usul-mufassir",
+      "title": "تعارف، اصول اور مفسر کی اہلیت",
       "icon": "layers",
+      "summary": "تفسیر کے بنیادی مفاہیم، اصولِ تفسیر کا تعارف، مفسر کی علمی اہلیت اور آداب و احتیاطوں کا منظم تعارف۔",
       "topics": [
-        { "id": "tafsir-introduction", "title": "تفسیر کا تعارف", "icon": "file", "summary": "", "questions": [{ "q": "نمونہ سوال", "a": "یہ نمونہ جواب ہے۔ اصل علمی مواد بعد میں Word فائل سے شامل کیا جائے گا۔" }] },
-        { "id": "tafsir-taweel-tadabbur", "title": "تفسیر، تاویل اور تدبر", "icon": "file", "summary": "", "questions": [] },
-        { "id": "usool-tafsir-introduction", "title": "اصولِ تفسیر کا تعارف", "icon": "file", "summary": "", "questions": [] },
-        { "id": "mufassir-eligibility-adab", "title": "مفسر کی اہلیت اور آداب", "icon": "file", "summary": "", "questions": [] },
-        { "id": "mufassir-scholarly-eligibility", "title": "مفسر کی علمی اہلیت", "icon": "file", "summary": "", "questions": [] },
-        { "id": "mufassir-adab-precautions", "title": "مفسر کے آداب و احتیاطیں", "icon": "file", "summary": "", "questions": [] }
+        {
+          "id": "tafsir-introduction",
+          "title": "تفسیر کا تعارف",
+          "icon": "file",
+          "summary": "تفسیر کے معنی، ضرورت، مقصد، قرآن فہمی میں مقام، اور تفسیر و ترجمہ کے بنیادی فرق کا جامع بیان۔",
+          "questions": []
+        },
+        {
+          "id": "tafsir-taweel-tadabbur",
+          "title": "تفسیر، تاویل اور تدبر",
+          "icon": "file",
+          "summary": "تاویل کی حقیقت، صحیح و غلط تاویل، تدبر کا مفہوم، اور تفسیر و تدبر کے علمی و عملی تعلق کی وضاحت۔",
+          "questions": []
+        },
+        {
+          "id": "usul-tafsir-introduction",
+          "title": "اصولِ تفسیر کا تعارف",
+          "icon": "file",
+          "summary": "اصولِ تفسیر کی تعریف، موضوع، مقصد، اہمیت، دائرہ، اور علوم القرآن سے اس کے فرق کا تعارف۔",
+          "questions": []
+        },
+        {
+          "id": "mufassir-ilmi-ahliyyat",
+          "title": "مفسر کی علمی اہلیت",
+          "icon": "file",
+          "summary": "مفسر کے لیے عربی، حدیث، فقہ، اصولِ فقہ، لغت، بلاغت، سیرت، تاریخ اور عقیدہ کی ضرورت کا بیان۔",
+          "questions": []
+        },
+        {
+          "id": "mufassir-adab-ihtiyat",
+          "title": "مفسر کے آداب و احتیاطیں",
+          "icon": "file",
+          "summary": "علمی دیانت، تعصب سے بچاؤ، بے دلیل رائے سے احتراز، سیاق کے احترام اور تفسیر میں احتیاط کا منہج۔",
+          "questions": []
+        }
       ]
     },
     {
-      "id": "sources-of-tafsir",
-      "title": "مصادرِ تفسیر",
+      "id": "sources-riwayat-tafsir",
+      "title": "مصادرِ تفسیر اور تفسیری روایت",
       "icon": "layers",
+      "summary": "قرآن، سنت، آثارِ صحابہ، اقوالِ تابعین، لغت، سیاق، تاریخی قرائن اور تفسیری روایت کے بنیادی مصادر۔",
       "topics": [
-        { "id": "sources-of-tafsir", "title": "مصادرِ تفسیر", "icon": "file", "summary": "", "questions": [] },
-        { "id": "quran-by-quran-tafsir", "title": "قرآن سے قرآن کی تفسیر", "icon": "file", "summary": "", "questions": [] },
-        { "id": "tafsir-by-sunnah", "title": "سنت سے تفسیر", "icon": "file", "summary": "", "questions": [] },
-        { "id": "sahabah-tafsir-tradition", "title": "صحابہ کی تفسیری روایت", "icon": "file", "summary": "", "questions": [] },
-        { "id": "tabieen-tafsir-tradition", "title": "تابعین کی تفسیری روایت", "icon": "file", "summary": "", "questions": [] }
+        {
+          "id": "sources-of-tafsir",
+          "title": "مصادرِ تفسیر",
+          "icon": "file",
+          "summary": "قرآن، سنت، آثارِ صحابہ، اقوالِ تابعین، لغت، سیاق اور معتبر تاریخی قرائن کی تفسیری حیثیت۔",
+          "questions": []
+        },
+        {
+          "id": "quran-by-quran-tafsir",
+          "title": "قرآن سے قرآن کی تفسیر",
+          "icon": "file",
+          "summary": "ایک آیت کی دوسری آیت سے وضاحت، مجمل کی توضیح، موضوعی ربط، اور قرآن کے داخلی بیان کا اصول۔",
+          "questions": []
+        },
+        {
+          "id": "sunnah-by-tafsir",
+          "title": "سنت سے تفسیر",
+          "icon": "file",
+          "summary": "نبی کریم ﷺ کی قولی، فعلی اور تقریری تفسیر، حدیث کی صحت، اور سنت کی تفسیری حجیت کا بیان۔",
+          "questions": []
+        },
+        {
+          "id": "sahabah-tafsiri-riwayat",
+          "title": "صحابہ کی تفسیری روایت",
+          "icon": "file",
+          "summary": "ابن عباسؓ، ابن مسعودؓ، علیؓ، ابی بن کعبؓ، عائشہؓ اور دیگر صحابہ کے تفسیری مقام کا تعارف۔",
+          "questions": []
+        },
+        {
+          "id": "tabieen-tafsiri-riwayat",
+          "title": "تابعین کی تفسیری روایت",
+          "icon": "file",
+          "summary": "مکہ، مدینہ اور کوفہ کے تفسیری مکاتب، مجاہد، عکرمہ، قتادہ، سعید بن جبیر اور دیگر تابعین کی روایت۔",
+          "questions": []
+        }
       ]
     },
     {
-      "id": "basic-tafsir-methods",
-      "title": "بنیادی تفسیری مناہج",
+      "id": "tafsir-methods-classical",
+      "title": "بنیادی مناہجِ تفسیر",
       "icon": "layers",
+      "summary": "مأثور، رائے، لغوی، نحوی، بلاغی، فقہی، اعتقادی، اخلاقی، اشاری، موضوعاتی اور نظمی تفسیر کے مناہج۔",
       "topics": [
-        { "id": "tafsir-bil-mathur", "title": "تفسیر بالمأثور", "icon": "file", "summary": "", "questions": [] },
-        { "id": "tafsir-bil-raye", "title": "تفسیر بالرائے", "icon": "file", "summary": "", "questions": [] },
-        { "id": "linguistic-tafsir", "title": "لغوی تفسیر", "icon": "file", "summary": "", "questions": [] },
-        { "id": "nahwi-sarfi-tafsir", "title": "نحوی و صرفی تفسیر", "icon": "file", "summary": "", "questions": [] },
-        { "id": "balaghi-adabi-tafsir", "title": "بلاغی و ادبی تفسیر", "icon": "file", "summary": "", "questions": [] }
+        {
+          "id": "tafsir-bil-mathur",
+          "title": "تفسیر بالمأثور",
+          "icon": "file",
+          "summary": "تفسیر بالمأثور کی تعریف، مصادر، خصوصیات، اہمیت، حدود، طبری، ابن کثیر اور الدر المنثور کا تعارف۔",
+          "questions": []
+        },
+        {
+          "id": "tafsir-bil-ray",
+          "title": "تفسیر بالرائے",
+          "icon": "file",
+          "summary": "جائز رائے، مذموم رائے، اجتہادی تفسیر، رائے کی شرائط اور منضبط تفسیری اجتہاد کا بیان۔",
+          "questions": []
+        },
+        {
+          "id": "lugawi-tafsir",
+          "title": "لغوی تفسیر",
+          "icon": "file",
+          "summary": "مفردات القرآن، غریب القرآن، وجوہ و نظائر، عربی محاورہ اور لغت کی تفسیری اہمیت۔",
+          "questions": []
+        },
+        {
+          "id": "nahwi-sarfi-tafsir",
+          "title": "نحوی و صرفی تفسیر",
+          "icon": "file",
+          "summary": "اعراب، ترکیب، صیغے، جملے کی ساخت اور معنی پر نحوی و صرفی اثرات کا تفسیری مطالعہ۔",
+          "questions": []
+        },
+        {
+          "id": "balaghi-adabi-tafsir",
+          "title": "بلاغی و ادبی تفسیر",
+          "icon": "file",
+          "summary": "حقیقت و مجاز، کنایہ، استعارہ، تقدیم و تاخیر، حذف و ذکر اور اسلوبِ قرآن کی تفسیری جہات۔",
+          "questions": []
+        },
+        {
+          "id": "fiqhi-tafsir",
+          "title": "فقہی تفسیر",
+          "icon": "file",
+          "summary": "آیات الاحکام، فقہی استنباط، مذاہب کا اثر، جصاص، ابن العربی اور قرطبی کے مناہج کا تعارف۔",
+          "questions": []
+        },
+        {
+          "id": "kalami-itiqadi-tafsir",
+          "title": "کلامی و اعتقادی تفسیر",
+          "icon": "file",
+          "summary": "توحید، صفات، نبوت، آخرت، جبر و قدر اور کلامی مناہج کے تفسیری اثرات کا مطالعہ۔",
+          "questions": []
+        },
+        {
+          "id": "akhlaqi-tarbiyati-tafsir",
+          "title": "اخلاقی و تربیتی تفسیر",
+          "icon": "file",
+          "summary": "تزکیہ، اخلاق، اصلاحِ فرد، اصلاحِ معاشرہ اور دعوتی پہلوؤں کے لحاظ سے قرآن فہمی۔",
+          "questions": []
+        },
+        {
+          "id": "ishari-sufi-tafsir",
+          "title": "اشاری و صوفی تفسیر",
+          "icon": "file",
+          "summary": "جائز اشاری تفسیر، باطنی تفسیر سے فرق، حدود، شرائط اور اعتدال کا تفسیری منہج۔",
+          "questions": []
+        },
+        {
+          "id": "mawdui-tafsir",
+          "title": "موضوعاتی تفسیر",
+          "icon": "file",
+          "summary": "ایک موضوع پر قرآن کی آیات کو جمع کر کے ان کا تجزیہ، مثلاً عدل، رحمت، علم، خاندان اور معیشت۔",
+          "questions": []
+        },
+        {
+          "id": "nazmi-surati-tafsir",
+          "title": "نظمی / سورتی تفسیر",
+          "icon": "file",
+          "summary": "ربطِ آیات، ربطِ سور، عمودِ سورت، نظمِ قرآن اور تدبر قرآن کے منہج کا تعارف۔",
+          "questions": []
+        }
       ]
     },
     {
-      "id": "specialized-tafsir-trends",
-      "title": "تخصصی تفسیری رجحانات",
+      "id": "ikhtilaf-tarjeeh-riwayat-criticism",
+      "title": "اختلاف، ترجیح اور روایات کی تحقیق",
       "icon": "layers",
+      "summary": "تفسیری اختلافات، اصولِ ترجیح، اسرائیلیات، ضعیف و موضوع روایات اور تفسیری روایت کی تحقیق۔",
       "topics": [
-        { "id": "fiqhi-tafsir", "title": "فقہی تفسیر", "icon": "file", "summary": "", "questions": [] },
-        { "id": "kalami-itiqadi-tafsir", "title": "کلامی و اعتقادی تفسیر", "icon": "file", "summary": "", "questions": [] },
-        { "id": "akhlaqi-tarbiyati-tafsir", "title": "اخلاقی و تربیتی تفسیر", "icon": "file", "summary": "", "questions": [] },
-        { "id": "ishari-sufi-tafsir", "title": "اشاری و صوفی تفسیر", "icon": "file", "summary": "", "questions": [] },
-        { "id": "mawdui-tafsir", "title": "موضوعاتی تفسیر", "icon": "file", "summary": "", "questions": [] },
-        { "id": "nazmi-surati-tafsir", "title": "نظمی / سورتی تفسیر", "icon": "file", "summary": "", "questions": [] }
+        {
+          "id": "tafsiri-ikhtilafat",
+          "title": "تفسیری اختلافات",
+          "icon": "file",
+          "summary": "اختلافِ تنوع، اختلافِ تضاد، لغوی، فقہی، کلامی اور قراءتی اختلافات کے اسباب اور حدود۔",
+          "questions": []
+        },
+        {
+          "id": "usul-tarjeeh-fi-tafsir",
+          "title": "اصولِ ترجیح فی التفسیر",
+          "icon": "file",
+          "summary": "اقوال میں ترجیح، قرآن و حدیث کی تقدیم، سیاق، لغت، صحابہ کے اقوال اور اصولی ترجیح کا منہج۔",
+          "questions": []
+        },
+        {
+          "id": "israiliyat-tafsiri-jaiza",
+          "title": "اسرائیلیات کا تفسیری جائزہ",
+          "icon": "file",
+          "summary": "اسرائیلیات کے قبول و رد کے اصول، قصص میں استعمال، احتیاط اور ابن کثیر کے منہج کا تعارف۔",
+          "questions": []
+        },
+        {
+          "id": "daeef-mawdu-riwayat-tafsir",
+          "title": "ضعیف و موضوع روایات",
+          "icon": "file",
+          "summary": "تفسیری روایات کی تحقیق، سند و متن کا جائزہ، موضوع روایات سے بچاؤ اور علمی احتیاط۔",
+          "questions": []
+        }
       ]
     },
     {
-      "id": "difference-preference-caution",
-      "title": "اختلاف، ترجیح اور احتیاط",
+      "id": "tafasir-makatib-tradition",
+      "title": "اہم تفاسیر، مکاتب اور روایت",
       "icon": "layers",
+      "summary": "اہم کلاسیکی تفاسیر، برصغیر کی تفسیری روایت اور مختلف تفسیری مکاتب و مناہج کا جامع تعارف۔",
       "topics": [
-        { "id": "tafsir-differences", "title": "تفسیری اختلافات", "icon": "file", "summary": "", "questions": [] },
-        { "id": "principles-of-preference-in-tafsir", "title": "اصولِ ترجیح فی التفسیر", "icon": "file", "summary": "", "questions": [] },
-        { "id": "israiliyyat-in-tafsir", "title": "اسرائیلیات کا تفسیری جائزہ", "icon": "file", "summary": "", "questions": [] },
-        { "id": "weak-and-fabricated-narrations", "title": "ضعیف و موضوع روایات", "icon": "file", "summary": "", "questions": [] }
+        {
+          "id": "major-classical-tafasir",
+          "title": "اہم کلاسیکی تفاسیر",
+          "icon": "file",
+          "summary": "طبری، زمخشری، رازی، ابن کثیر، قرطبی، بیضاوی، جلالین، آلوسی اور دیگر کلاسیکی تفاسیر کا تعارف۔",
+          "questions": []
+        },
+        {
+          "id": "subcontinent-tafsiri-tradition",
+          "title": "برصغیر کی تفسیری روایت",
+          "icon": "file",
+          "summary": "شاہ ولی اللہ، شاہ عبدالقادر، بیان القرآن، تفہیم القرآن، معارف القرآن، تدبر قرآن اور اردو تفسیری روایت۔",
+          "questions": []
+        },
+        {
+          "id": "tafsiri-makatib-manahij",
+          "title": "تفسیری مکاتب و مناہج",
+          "icon": "file",
+          "summary": "روایی، لغوی، فقہی، کلامی، ادبی، اصلاحی، دعوتی، مقاصدی اور دیگر تفسیری مناہج کا تقابلی مطالعہ۔",
+          "questions": []
+        }
       ]
     },
     {
-      "id": "history-sources-contemporary",
-      "title": "تاریخ، مصادر اور معاصر مباحث",
+      "id": "modern-orientalist-contemporary",
+      "title": "جدید رجحانات، استشراق اور معاصر مسائل",
       "icon": "layers",
+      "summary": "جدید تفسیری رجحانات، استشراق، معاصر مسائل اور غلط تفسیری رجحانات کا علمی و تنقیدی مطالعہ۔",
       "topics": [
-        { "id": "major-classical-tafasir", "title": "اہم کلاسیکی تفاسیر", "icon": "file", "summary": "", "questions": [] },
-        { "id": "subcontinent-tafsir-tradition", "title": "برصغیر کی تفسیری روایت", "icon": "file", "summary": "", "questions": [] },
-        { "id": "tafsir-schools-and-methods", "title": "تفسیری مکاتب و مناہج", "icon": "file", "summary": "", "questions": [] },
-        { "id": "modern-tafsir-trends", "title": "جدید تفسیری رجحانات", "icon": "file", "summary": "", "questions": [] },
-        { "id": "orientalism-and-tafsir", "title": "استشراق اور تفسیر", "icon": "file", "summary": "", "questions": [] },
-        { "id": "tafsir-and-contemporary-issues", "title": "تفسیر اور معاصر مسائل", "icon": "file", "summary": "", "questions": [] }
+        {
+          "id": "modern-tafsiri-trends",
+          "title": "جدید تفسیری رجحانات",
+          "icon": "file",
+          "summary": "سماجی، اصلاحی، ادبی، مقاصدی، سائنسی، سیاسی، نسائی اور معاصر فکری تفسیری رجحانات۔",
+          "questions": []
+        },
+        {
+          "id": "orientalism-and-tafsir",
+          "title": "استشراق اور تفسیر",
+          "icon": "file",
+          "summary": "مستشرقین کے اعتراضات، وحی، تاریخِ قرآن، مصادرِ قرآن، تفسیری روایت اور علمی جوابات۔",
+          "questions": []
+        },
+        {
+          "id": "tafsir-and-contemporary-issues",
+          "title": "تفسیر اور معاصر مسائل",
+          "icon": "file",
+          "summary": "خاندان، عورت، انسانی حقوق، معیشت، ریاست، ماحولیات، الحاد، ٹیکنالوجی اور جدید مسائل کا قرآنی مطالعہ۔",
+          "questions": []
+        },
+        {
+          "id": "wrong-tafsiri-trends",
+          "title": "غلط تفسیری رجحانات",
+          "icon": "file",
+          "summary": "من مانی تفسیر، فرقہ وارانہ تفسیر، سیاسی استعمال، سائنسی افراط اور سیاق سے کٹاؤ کی علمی نقد۔",
+          "questions": []
+        }
       ]
     },
     {
-      "id": "research-teaching",
-      "title": "تحقیق و تدریس",
+      "id": "practical-research-teaching-references",
+      "title": "عملی منہج، تحقیق، تدریس اور مراجع",
       "icon": "layers",
+      "summary": "آیت کی تفسیر کا عملی طریقہ، تفسیری تحقیق، تدریسِ تفسیر، سوال سازی اور مصادر و مراجع کا تعارف۔",
       "topics": [
-        { "id": "practical-method-of-tafsir", "title": "عملی منہجِ تفسیر", "icon": "file", "summary": "", "questions": [] },
-        { "id": "tafsir-research-method", "title": "تفسیری تحقیق کا طریقہ", "icon": "file", "summary": "", "questions": [] },
-        { "id": "wrong-tafsir-trends", "title": "غلط تفسیری رجحانات", "icon": "file", "summary": "", "questions": [] },
-        { "id": "teaching-tafsir-and-questions", "title": "تدریسِ تفسیر اور سوالات", "icon": "file", "summary": "", "questions": [] },
-        { "id": "tafsir-sources-references", "title": "مصادر و مراجعِ تفسیر", "icon": "file", "summary": "", "questions": [] }
+        {
+          "id": "practical-method-of-tafsir",
+          "title": "عملی منہجِ تفسیر",
+          "icon": "file",
+          "summary": "آیت کی تفسیر کا مرحلہ وار طریقہ: ترجمہ، لغت، سیاق، حدیث، آثار، اقوال، ترجیح اور اطلاق۔",
+          "questions": []
+        },
+        {
+          "id": "tafsiri-research-method",
+          "title": "تفسیری تحقیق کا طریقہ",
+          "icon": "file",
+          "summary": "موضوع کا انتخاب، مصادر کا تقابل، حوالہ نویسی، روایت کی تحقیق، مقالہ نویسی اور علمی معیار۔",
+          "questions": []
+        },
+        {
+          "id": "teaching-tafsir-educational-applications",
+          "title": "تدریسِ تفسیر اور تعلیمی تطبیقات",
+          "icon": "file",
+          "summary": "سبق کی تیاری، تفسیری سوالات، MCQs، مختصر سوالات، تطبیقی مشقیں اور تدریسی سرگرمیاں۔",
+          "questions": []
+        },
+        {
+          "id": "tafsir-sources-references",
+          "title": "مصادر و مراجعِ تفسیر",
+          "icon": "file",
+          "summary": "اصولِ تفسیر کی عربی و اردو کتب، لغوی مصادر، حدیثی مصادر، تفسیری مصادر اور ڈیجیٹل مراجع۔",
+          "questions": []
+        }
       ]
     }
   ]
