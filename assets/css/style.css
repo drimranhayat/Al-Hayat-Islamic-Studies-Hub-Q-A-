@@ -1,6 +1,6 @@
 /*
  * Islamic Studies Knowledge Portal
- * Production stylesheet — RTL-first, responsive and accessible
+ * Production stylesheet â€” RTL-first, responsive and accessible
  */
 
 :root {
@@ -1134,6 +1134,12 @@ mark {
   --theme: #4338a5;
   --theme-2: #0f766e;
   --theme-soft: #eef2ff;
+}
+
+.theme-islamic-thought-philosophy {
+  --theme: #5b21b6;
+  --theme-2: #3730a3;
+  --theme-soft: #f5f3ff;
 }
 
 /* Accessibility utilities */
