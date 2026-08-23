@@ -65,30 +65,30 @@ function subjectIcon(subject) {
 
 function groupIcon(group) {
   const value = `${group.id} ${group.title}`;
-  if (/history|ØªØ§Ø±ÛŒØ®|Ø§Ø±ØªÙ‚Ø§|ØªØ¯ÙˆÛŒÙ†|Ø®Ù„Ø§ÙØª|Ø¯ÙˆØ±/.test(value)) return "history";
-  if (/source|Ù…ØµØ§Ø¯Ø±|Ù…Ø±Ø§Ø¬Ø¹/.test(value)) return "library";
-  if (/research|ØªØ­Ù‚ÛŒÙ‚|ÚˆÛŒØ¬ÛŒÙ¹Ù„|ÙÛØ§Ø±Ø³/.test(value)) return "database";
-  if (/authority|Ø­Ø¬ÛŒØª|Ø§ÛŒÙ…Ø§Ù†|Ø¹Ù‚Ø§Ø¦Ø¯|ØªÙˆØ­ÛŒØ¯/.test(value)) return "shield";
-  if (/fiqh|ÙÙ‚Û|Ù‚Ø¶Ø§Ø¡|ÙØªÙˆÛŒ|Ù‚ÙˆØ§Ø¹Ø¯/.test(value)) return "scale";
-  if (/sects|ÙØ±Ù‚|Ù…Ø°Ø§ÛØ¨|Ø§Ø¯ÛŒØ§Ù†/.test(value)) return "globe";
+  if (/history|\u062A\u0627\u0631\u06CC\u062E|\u0627\u0631\u062A\u0642\u0627|\u062A\u062F\u0648\u06CC\u0646|\u062E\u0644\u0627\u0641\u062A|\u062F\u0648\u0631/.test(value)) return "history";
+  if (/source|\u0645\u0635\u0627\u062F\u0631|\u0645\u0631\u0627\u062C\u0639/.test(value)) return "library";
+  if (/research|\u062A\u062D\u0642\u06CC\u0642|\u0688\u06CC\u062C\u06CC\u0679\u0644|\u0641\u06C1\u0627\u0631\u0633/.test(value)) return "database";
+  if (/authority|\u062D\u062C\u06CC\u062A|\u0627\u06CC\u0645\u0627\u0646|\u0639\u0642\u0627\u0626\u062F|\u062A\u0648\u062D\u06CC\u062F/.test(value)) return "shield";
+  if (/fiqh|\u0641\u0642\u06C1|\u0642\u0636\u0627\u0621|\u0641\u062A\u0648\u06CC|\u0642\u0648\u0627\u0639\u062F/.test(value)) return "scale";
+  if (/sects|\u0641\u0631\u0642|\u0645\u0630\u0627\u06C1\u0628|\u0627\u062F\u06CC\u0627\u0646/.test(value)) return "globe";
   return group.icon || "layers";
 }
 
 function topicIcon(topic) {
   const value = `${topic.id} ${topic.title}`;
-  if (/intro|ØªØ¹Ø§Ø±Ù/.test(value)) return "library";
-  if (/sunnah|Ø³Ù†Øª/.test(value)) return "book-marked";
-  if (/authority|Ø­Ø¬ÛŒØª|Ø¹Ù‚ÛŒØ¯Û|Ø§ÛŒÙ…Ø§Ù†|ØªÙˆØ­ÛŒØ¯/.test(value)) return "shield";
-  if (/types|Ø§Ù‚Ø³Ø§Ù…|Ø·Ø¨Ù‚Ø§Øª/.test(value)) return "layers";
-  if (/history|ØªØ§Ø±ÛŒØ®|Ø¹ÛØ¯|Ø¯ÙˆØ±|ØªØ¯ÙˆÛŒÙ†/.test(value)) return "history";
-  if (/isnad|Ø³Ù†Ø¯|Ø§Ø³Ù†Ø§Ø¯|link/.test(value)) return "link";
-  if (/jarh|ØªØ¹Ø¯ÛŒÙ„|ØªØ­Ù‚ÛŒÙ‚|ØªØ®Ø±ÛŒØ¬|search/.test(value)) return "file-search";
-  if (/sahih|ØµØ­ÛŒØ­/.test(value)) return "badge";
-  if (/daeef|Ø¶Ø¹ÛŒÙ|Ú©Ù…Ø²ÙˆØ±/.test(value)) return "alert";
-  if (/mawdu|Ù…ÙˆØ¶ÙˆØ¹/.test(value)) return "ban";
-  if (/quran|Ù‚Ø±Ø¢Ù†/.test(value)) return "book-marked";
-  if (/fiqh|ÙÙ‚Û|Ù‚Ø¶Ø§Ø¡|ÙØªÙˆÛŒ/.test(value)) return "scale";
-  if (/seerah|Ø³ÛŒØ±Øª|ØºØ²Ùˆ|ÛØ¬Ø±Øª|Ù†Ø¨ÙˆÛŒ/.test(value)) return "route";
+  if (/intro|\u062A\u0639\u0627\u0631\u0641/.test(value)) return "library";
+  if (/sunnah|\u0633\u0646\u062A/.test(value)) return "book-marked";
+  if (/authority|\u062D\u062C\u06CC\u062A|\u0639\u0642\u06CC\u062F\u06C1|\u0627\u06CC\u0645\u0627\u0646|\u062A\u0648\u062D\u06CC\u062F/.test(value)) return "shield";
+  if (/types|\u0627\u0642\u0633\u0627\u0645|\u0637\u0628\u0642\u0627\u062A/.test(value)) return "layers";
+  if (/history|\u062A\u0627\u0631\u06CC\u062E|\u0639\u06C1\u062F|\u062F\u0648\u0631|\u062A\u062F\u0648\u06CC\u0646/.test(value)) return "history";
+  if (/isnad|\u0633\u0646\u062F|\u0627\u0633\u0646\u0627\u062F|link/.test(value)) return "link";
+  if (/jarh|\u062A\u0639\u062F\u06CC\u0644|\u062A\u062D\u0642\u06CC\u0642|\u062A\u062E\u0631\u06CC\u062C|search/.test(value)) return "file-search";
+  if (/sahih|\u0635\u062D\u06CC\u062D/.test(value)) return "badge";
+  if (/daeef|\u0636\u0639\u06CC\u0641|\u06A9\u0645\u0632\u0648\u0631/.test(value)) return "alert";
+  if (/mawdu|\u0645\u0648\u0636\u0648\u0639/.test(value)) return "ban";
+  if (/quran|\u0642\u0631\u0622\u0646/.test(value)) return "book-marked";
+  if (/fiqh|\u0641\u0642\u06C1|\u0642\u0636\u0627\u0621|\u0641\u062A\u0648\u06CC/.test(value)) return "scale";
+  if (/seerah|\u0633\u06CC\u0631\u062A|\u063A\u0632\u0648|\u06C1\u062C\u0631\u062A|\u0646\u0628\u0648\u06CC/.test(value)) return "route";
   return topic.icon || "file";
 }
 
@@ -163,9 +163,9 @@ function setError(target, message) {
 
 function formatArabicSnippets(text) {
   return text
-    .replace(/ï´¿([^ï´¾]+)ï´¾/g, '<span class="arabic-block" lang="ar" dir="rtl">ï´¿$1ï´¾</span>')
-    .replace(/Â«([^Â»]*[\u0600-\u06FF][^Â»]*)Â»/g, '<span class="arabic-quote" lang="ar" dir="rtl">Â«$1Â»</span>')
-    .replace(/â€œ([^â€]*[\u064B-\u065F\u0670][^â€]*)â€/g, '<span class="arabic-quote" lang="ar" dir="rtl">â€œ$1â€</span>');
+    .replace(/\uFD3F([^\uFD3E]+)\uFD3E/g, '<span class="arabic-block" lang="ar" dir="rtl">\uFD3F$1\uFD3E</span>')
+    .replace(/\u00AB([^\u00BB]*[\u0600-\u06FF][^\u00BB]*)\u00BB/g, '<span class="arabic-quote" lang="ar" dir="rtl">\u00AB$1\u00BB</span>')
+    .replace(/\u201C([^\u201D]*[\u064B-\u065F\u0670][^\u201D]*)\u201D/g, '<span class="arabic-quote" lang="ar" dir="rtl">\u201C$1\u201D</span>');
 }
 
 function formatAnswer(answer = "") {
@@ -180,7 +180,7 @@ function breadcrumbs(items) {
   const root = document.getElementById("breadcrumbs");
   if (!root) return;
   root.innerHTML = items.map((item, index) => {
-    const sep = index ? "<span>â†</span>" : "";
+    const sep = index ? "<span>\u2190</span>" : "";
     const node = item.href ? `<a href="${item.href}">${escapeHTML(item.label)}</a>` : `<span>${escapeHTML(item.label)}</span>`;
     return `${sep}${node}`;
   }).join("");
@@ -197,13 +197,13 @@ async function renderHome() {
         <h3>${escapeHTML(subject.title)}</h3>
         <p>${escapeHTML(subject.description)}</p>
         <span class="meta-row">
-          <span class="pill">${icon("layers")} ${full.groups.length} Ú¯Ø±ÙˆÙ¾Ø³</span>
-          <span class="pill">${icon("list")} ${countTopics(full)} Ù…ÙˆØ¶ÙˆØ¹Ø§Øª</span>
+          <span class="pill">${icon("layers")} ${full.groups.length} \u06AF\u0631\u0648\u067E\u0633</span>
+          <span class="pill">${icon("list")} ${countTopics(full)} \u0645\u0648\u0636\u0648\u0639\u0627\u062A</span>
         </span>
       </a>`;
     }).join("");
   } catch (error) {
-    setError(grid, "Ù…ÙˆØ§Ø¯ Ù„ÙˆÚˆ Ù†ÛÛŒÚº ÛÙˆ Ø³Ú©Ø§Û” Ø¨Ø±Ø§ÛÙ Ú©Ø±Ù… data ÙÙˆÙ„ÚˆØ± Ú†ÛŒÚ© Ú©Ø±ÛŒÚºÛ”");
+    setError(grid, "\u0645\u0648\u0627\u062F \u0644\u0648\u0688 \u0646\u06C1\u06CC\u06BA \u06C1\u0648 \u0633\u06A9\u0627\u06D4 \u0628\u0631\u0627\u06C1\u0650 \u06A9\u0631\u0645 data \u0641\u0648\u0644\u0688\u0631 \u0686\u06CC\u06A9 \u06A9\u0631\u06CC\u06BA\u06D4");
   }
 }
 
@@ -214,26 +214,26 @@ async function renderSubject() {
   try {
     const subject = await getSubject(subjectId);
     applyTheme(subject.id);
-    document.title = `${subject.title} | Ø§Ù„Ø­ÛŒØ§Øª Ù…Ø±Ú©Ø² Ø¹Ù„ÙˆÙ… Ø§Ø³Ù„Ø§Ù…ÛŒÛ`;
+    document.title = `${subject.title} | \u0627\u0644\u062D\u06CC\u0627\u062A \u0645\u0631\u06A9\u0632 \u0639\u0644\u0648\u0645 \u0627\u0633\u0644\u0627\u0645\u06CC\u06C1`;
     breadcrumbs([
-      { label: "ØµÙØ­Û‚ Ø§ÙˆÙ„", href: "index.html" },
+      { label: "\u0635\u0641\u062D\u06C2 \u0627\u0648\u0644", href: "index.html" },
       { label: subject.title }
     ]);
     hero.innerHTML = `<span class="card-icon">${icon(subjectIcon(subject))}</span>
-      <p class="eyebrow">Ù…Ø¶Ù…ÙˆÙ†</p>
+      <p class="eyebrow">\u0645\u0636\u0645\u0648\u0646</p>
       <h1>${escapeHTML(subject.title)}</h1>
-      <p>${escapeHTML(subject.description || "Ú¯Ø±ÙˆÙ¾Ø³ Ú©Ú¾ÙˆÙ„ Ú©Ø± Ù…ÙˆØ¶ÙˆØ¹ Ù…Ù†ØªØ®Ø¨ Ú©Ø±ÛŒÚºÛ”")}</p>`;
+      <p>${escapeHTML(subject.description || "\u06AF\u0631\u0648\u067E\u0633 \u06A9\u06BE\u0648\u0644 \u06A9\u0631 \u0645\u0648\u0636\u0648\u0639 \u0645\u0646\u062A\u062E\u0628 \u06A9\u0631\u06CC\u06BA\u06D4")}</p>`;
     list.innerHTML = subject.groups.map((group, index) => `<article class="group-card" id="${group.id}">
       <button class="group-toggle" type="button" aria-expanded="${index === 0}" data-group-toggle>
         <span>${icon(groupIcon(group))} ${escapeHTML(group.title)}</span>
-        <span class="pill">${group.topics.length} Ù…ÙˆØ¶ÙˆØ¹Ø§Øª ${icon("chevron")}</span>
+        <span class="pill">${group.topics.length} \u0645\u0648\u0636\u0648\u0639\u0627\u062A ${icon("chevron")}</span>
       </button>
       <div class="topic-grid" ${index === 0 ? "" : "hidden"}>
         ${group.topics.map((topic) => `<a class="topic-button" href="${topicUrl(subject.id, group.id, topic.id)}">${icon(topicIcon(topic))}<span>${escapeHTML(topic.title)}</span></a>`).join("")}
       </div>
     </article>`).join("");
   } catch (error) {
-    setError(list, "ÛŒÛ Ù…Ø¶Ù…ÙˆÙ† Ù†ÛÛŒÚº Ù…Ù„ Ø³Ú©Ø§Û”");
+    setError(list, "\u06CC\u06C1 \u0645\u0636\u0645\u0648\u0646 \u0646\u06C1\u06CC\u06BA \u0645\u0644 \u0633\u06A9\u0627\u06D4");
   }
 }
 
@@ -254,7 +254,7 @@ async function renderTopic() {
     const next = flat[currentIndex + 1];
     document.title = `${topic.title} | ${subject.title}`;
     breadcrumbs([
-      { label: "ØµÙØ­Û‚ Ø§ÙˆÙ„", href: "index.html" },
+      { label: "\u0635\u0641\u062D\u06C2 \u0627\u0648\u0644", href: "index.html" },
       { label: subject.title, href: subjectUrl(subject.id) },
       { label: group.title, href: `${subjectUrl(subject.id)}#${group.id}` },
       { label: topic.title }
@@ -265,10 +265,10 @@ async function renderTopic() {
         <div>
           <p class="eyebrow">${escapeHTML(group.title)}</p>
           <h1>${escapeHTML(topic.title)}</h1>
-          <p class="topic-summary">${escapeHTML(topic.summary || "Ø§Ø³ Ù…ÙˆØ¶ÙˆØ¹ Ú©Ø§ ØªÙØµÛŒÙ„ÛŒ Ù…Ø³ØªÙ†Ø¯ Ù…ÙˆØ§Ø¯ Ø¢Ø¦Ù†Ø¯Û Word ÙØ§Ø¦Ù„ Ø³Û’ Ø´Ø§Ù…Ù„ Ú©ÛŒØ§ Ø¬Ø§Ø¦Û’ Ú¯Ø§Û”")}</p>
+          <p class="topic-summary">${escapeHTML(topic.summary || "\u0627\u0633 \u0645\u0648\u0636\u0648\u0639 \u06A9\u0627 \u062A\u0641\u0635\u06CC\u0644\u06CC \u0645\u0633\u062A\u0646\u062F \u0645\u0648\u0627\u062F \u0622\u0626\u0646\u062F\u06C1 Word \u0641\u0627\u0626\u0644 \u0633\u06D2 \u0634\u0627\u0645\u0644 \u06A9\u06CC\u0627 \u062C\u0627\u0626\u06D2 \u06AF\u0627\u06D4")}</p>
           <div class="topic-stats">
-            <span class="stat-chip">${icon("list")} ${questions.length} Ø³ÙˆØ§Ù„Ø§Øª</span>
-            <span class="stat-chip">${icon("sparkles")} Ø¬ÙˆØ§Ø¨ Ø¨Ù¹Ù† Ø³Û’ Ú©Ú¾Ù„ÛŒÚº Ú¯Û’</span>
+            <span class="stat-chip">${icon("list")} ${questions.length} \u0633\u0648\u0627\u0644\u0627\u062A</span>
+            <span class="stat-chip">${icon("sparkles")} \u062C\u0648\u0627\u0628 \u0628\u0679\u0646 \u0633\u06D2 \u06A9\u06BE\u0644\u06CC\u06BA \u06AF\u06D2</span>
           </div>
         </div>
       </header>
@@ -276,30 +276,30 @@ async function renderTopic() {
         ${questions.map((qa, index) => `<section class="qa-item">
           <button class="qa-question" type="button" aria-expanded="false" data-qa-toggle>
             <span>${escapeHTML(qa.q)}</span>
-            <span class="pill">Ø¬ÙˆØ§Ø¨ Ø¯ÛŒÚ©Ú¾ÛŒÚº ${icon("chevron")}</span>
+            <span class="pill">\u062C\u0648\u0627\u0628 \u062F\u06CC\u06A9\u06BE\u06CC\u06BA ${icon("chevron")}</span>
           </button>
           <div class="qa-answer">${formatAnswer(qa.a)}</div>
         </section>`).join("")}
       </div>
-      <nav class="topic-nav" aria-label="Ù…ÙˆØ¶ÙˆØ¹Ø§Øª Ú©ÛŒ Ù†ÛŒÙˆÛŒÚ¯ÛŒØ´Ù†">
-        ${previous ? `<a class="button" href="${topicUrl(subject.id, previous.group.id, previous.topic.id)}">${icon("arrow")} Ù¾Ú†Ú¾Ù„Ø§ Ù…ÙˆØ¶ÙˆØ¹</a>` : "<span></span>"}
-        <a class="button" href="${subjectUrl(subject.id)}">${icon("layers")} Ù…Ø¶Ù…ÙˆÙ† Ù¾Ø± ÙˆØ§Ù¾Ø³ Ø¬Ø§Ø¦ÛŒÚº</a>
-        ${next ? `<a class="button" href="${topicUrl(subject.id, next.group.id, next.topic.id)}">Ø§Ú¯Ù„Ø§ Ù…ÙˆØ¶ÙˆØ¹ ${icon("chevron")}</a>` : "<span></span>"}
+      <nav class="topic-nav" aria-label="\u0645\u0648\u0636\u0648\u0639\u0627\u062A \u06A9\u06CC \u0646\u06CC\u0648\u06CC\u06AF\u06CC\u0634\u0646">
+        ${previous ? `<a class="button" href="${topicUrl(subject.id, previous.group.id, previous.topic.id)}">${icon("arrow")} \u067E\u0686\u06BE\u0644\u0627 \u0645\u0648\u0636\u0648\u0639</a>` : "<span></span>"}
+        <a class="button" href="${subjectUrl(subject.id)}">${icon("layers")} \u0645\u0636\u0645\u0648\u0646 \u067E\u0631 \u0648\u0627\u067E\u0633 \u062C\u0627\u0626\u06CC\u06BA</a>
+        ${next ? `<a class="button" href="${topicUrl(subject.id, next.group.id, next.topic.id)}">\u0627\u06AF\u0644\u0627 \u0645\u0648\u0636\u0648\u0639 ${icon("chevron")}</a>` : "<span></span>"}
       </nav>`;
   } catch (error) {
-    setError(view, "ÛŒÛ Ù…ÙˆØ¶ÙˆØ¹ Ù†ÛÛŒÚº Ù…Ù„ Ø³Ú©Ø§Û”");
+    setError(view, "\u06CC\u06C1 \u0645\u0648\u0636\u0648\u0639 \u0646\u06C1\u06CC\u06BA \u0645\u0644 \u0633\u06A9\u0627\u06D4");
   }
 }
 
 function sampleQuestions(title) {
   return [
     {
-      q: `${title} Ø³Û’ Ù…ØªØ¹Ù„Ù‚ Ù†Ù…ÙˆÙ†Û Ø³ÙˆØ§Ù„ Ú©ÛŒØ§ ÛÛ’ØŸ`,
-      a: "ÛŒÛ Ø¹Ø§Ø±Ø¶ÛŒ Ù†Ù…ÙˆÙ†Û Ø¬ÙˆØ§Ø¨ ÛÛ’Û” Ø§ØµÙ„ Ø¹Ù„Ù…ÛŒ Ø¬ÙˆØ§Ø¨ Ø¨Ø¹Ø¯ Ù…ÛŒÚº Word ÙØ§Ø¦Ù„ Ø³Û’ Ø§Ø³ÛŒ JSON Ù…ÙˆØ¶ÙˆØ¹ Ù…ÛŒÚº Ø´Ø§Ù…Ù„ Ú©ÛŒØ§ Ø¬Ø§Ø¦Û’ Ú¯Ø§Û”"
+      q: `${title} \u0633\u06D2 \u0645\u062A\u0639\u0644\u0642 \u0646\u0645\u0648\u0646\u06C1 \u0633\u0648\u0627\u0644 \u06A9\u06CC\u0627 \u06C1\u06D2\u061F`,
+      a: "\u06CC\u06C1 \u0639\u0627\u0631\u0636\u06CC \u0646\u0645\u0648\u0646\u06C1 \u062C\u0648\u0627\u0628 \u06C1\u06D2\u06D4 \u0627\u0635\u0644 \u0639\u0644\u0645\u06CC \u062C\u0648\u0627\u0628 \u0628\u0639\u062F \u0645\u06CC\u06BA Word \u0641\u0627\u0626\u0644 \u0633\u06D2 \u0627\u0633\u06CC JSON \u0645\u0648\u0636\u0648\u0639 \u0645\u06CC\u06BA \u0634\u0627\u0645\u0644 \u06A9\u06CC\u0627 \u062C\u0627\u0626\u06D2 \u06AF\u0627\u06D4"
     },
     {
-      q: "Ø¢Ø¦Ù†Ø¯Û Ù…ÙˆØ§Ø¯ Ú©Ø³ Ø·Ø±Ø­ Ø´Ø§Ù…Ù„ ÛÙˆÚ¯Ø§ØŸ",
-      a: "ÛØ± Ù…ÙˆØ¶ÙˆØ¹ Ú©ÛŒ Ø³ÙˆØ§Ù„ Ùˆ Ø¬ÙˆØ§Ø¨ ÙØ§Ø¦Ù„ Ù¾Ú‘Ú¾ Ú©Ø± Ø§Ø³ÛŒ Ù…Ø¶Ù…ÙˆÙ† Ú©Û’ JSON Ù…ÛŒÚº ØµØ±Ù Ù…ØªØ¹Ù„Ù‚Û topic Ú©Û’ questions array Ú©Ùˆ Ø§Ù¾ ÚˆÛŒÙ¹ Ú©ÛŒØ§ Ø¬Ø§Ø¦Û’ Ú¯Ø§Û”"
+      q: "\u0622\u0626\u0646\u062F\u06C1 \u0645\u0648\u0627\u062F \u06A9\u0633 \u0637\u0631\u062D \u0634\u0627\u0645\u0644 \u06C1\u0648\u06AF\u0627\u061F",
+      a: "\u06C1\u0631 \u0645\u0648\u0636\u0648\u0639 \u06A9\u06CC \u0633\u0648\u0627\u0644 \u0648 \u062C\u0648\u0627\u0628 \u0641\u0627\u0626\u0644 \u067E\u0691\u06BE \u06A9\u0631 \u0627\u0633\u06CC \u0645\u0636\u0645\u0648\u0646 \u06A9\u06D2 JSON \u0645\u06CC\u06BA \u0635\u0631\u0641 \u0645\u062A\u0639\u0644\u0642\u06C1 topic \u06A9\u06D2 questions array \u06A9\u0648 \u0627\u067E \u0688\u06CC\u0679 \u06A9\u06CC\u0627 \u062C\u0627\u0626\u06D2 \u06AF\u0627\u06D4"
     }
   ];
 }
