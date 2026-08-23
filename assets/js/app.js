@@ -5,7 +5,8 @@ const DATA_FILES = [
   "fiqh",
   "seerah",
   "aqeedah",
-  "religions-sects"
+  "religions-sects",
+  "islamic-thought-philosophy"
 ];
 
 // Add future Word-file content in /data/*.json. HTML pages should stay reusable templates.
@@ -39,7 +40,8 @@ const iconPaths = {
   chevron: '<path d="m15 18-6-6 6-6"/>',
   arrow: '<path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>',
   list: '<path d="M8 6h13"/><path d="M8 12h13"/><path d="M8 18h13"/><path d="M3 6h.01"/><path d="M3 12h.01"/><path d="M3 18h.01"/>',
-  sparkles: '<path d="m12 3-1.9 5.8L4 11l6.1 2.2L12 19l1.9-5.8L20 11l-6.1-2.2z"/><path d="M5 3v4"/><path d="M3 5h4"/><path d="M19 17v4"/><path d="M17 19h4"/>'
+  sparkles: '<path d="m12 3-1.9 5.8L4 11l6.1 2.2L12 19l1.9-5.8L20 11l-6.1-2.2z"/><path d="M5 3v4"/><path d="M3 5h4"/><path d="M19 17v4"/><path d="M17 19h4"/>',
+  brain: '<path d="M9.5 4.5A3.5 3.5 0 0 0 6 8v.4A3.5 3.5 0 0 0 4 14.7 3.5 3.5 0 0 0 7.5 19H9a3 3 0 0 0 3-3V7.5a3 3 0 0 0-2.5-3Z"/><path d="M14.5 4.5A3.5 3.5 0 0 1 18 8v.4a3.5 3.5 0 0 1 2 6.3 3.5 3.5 0 0 1-3.5 4.3H15a3 3 0 0 1-3-3V7.5a3 3 0 0 1 2.5-3Z"/><path d="M8 9.5a2.5 2.5 0 0 0 4 2"/><path d="M16 9.5a2.5 2.5 0 0 1-4 2"/><path d="M8.5 15a2.5 2.5 0 0 1 3.5 1"/><path d="M15.5 15a2.5 2.5 0 0 0-3.5 1"/>'
 };
 
 const subjectIconMap = {
@@ -49,7 +51,8 @@ const subjectIconMap = {
   fiqh: "scale",
   seerah: "route",
   aqeedah: "shield",
-  "religions-sects": "globe"
+  "religions-sects": "globe",
+  "islamic-thought-philosophy": "brain"
 };
 
 function icon(name) {
@@ -62,30 +65,30 @@ function subjectIcon(subject) {
 
 function groupIcon(group) {
   const value = `${group.id} ${group.title}`;
-  if (/history|تاریخ|ارتقا|تدوین|خلافت|دور/.test(value)) return "history";
-  if (/source|مصادر|مراجع/.test(value)) return "library";
-  if (/research|تحقیق|ڈیجیٹل|فہارس/.test(value)) return "database";
-  if (/authority|حجیت|ایمان|عقائد|توحید/.test(value)) return "shield";
-  if (/fiqh|فقہ|قضاء|فتوی|قواعد/.test(value)) return "scale";
-  if (/sects|فرق|مذاہب|ادیان/.test(value)) return "globe";
+  if (/history|ØªØ§Ø±ÛŒØ®|Ø§Ø±ØªÙ‚Ø§|ØªØ¯ÙˆÛŒÙ†|Ø®Ù„Ø§ÙØª|Ø¯ÙˆØ±/.test(value)) return "history";
+  if (/source|Ù…ØµØ§Ø¯Ø±|Ù…Ø±Ø§Ø¬Ø¹/.test(value)) return "library";
+  if (/research|ØªØ­Ù‚ÛŒÙ‚|ÚˆÛŒØ¬ÛŒÙ¹Ù„|ÙÛØ§Ø±Ø³/.test(value)) return "database";
+  if (/authority|Ø­Ø¬ÛŒØª|Ø§ÛŒÙ…Ø§Ù†|Ø¹Ù‚Ø§Ø¦Ø¯|ØªÙˆØ­ÛŒØ¯/.test(value)) return "shield";
+  if (/fiqh|ÙÙ‚Û|Ù‚Ø¶Ø§Ø¡|ÙØªÙˆÛŒ|Ù‚ÙˆØ§Ø¹Ø¯/.test(value)) return "scale";
+  if (/sects|ÙØ±Ù‚|Ù…Ø°Ø§ÛØ¨|Ø§Ø¯ÛŒØ§Ù†/.test(value)) return "globe";
   return group.icon || "layers";
 }
 
 function topicIcon(topic) {
   const value = `${topic.id} ${topic.title}`;
-  if (/intro|تعارف/.test(value)) return "library";
-  if (/sunnah|سنت/.test(value)) return "book-marked";
-  if (/authority|حجیت|عقیدہ|ایمان|توحید/.test(value)) return "shield";
-  if (/types|اقسام|طبقات/.test(value)) return "layers";
-  if (/history|تاریخ|عہد|دور|تدوین/.test(value)) return "history";
-  if (/isnad|سند|اسناد|link/.test(value)) return "link";
-  if (/jarh|تعدیل|تحقیق|تخریج|search/.test(value)) return "file-search";
-  if (/sahih|صحیح/.test(value)) return "badge";
-  if (/daeef|ضعیف|کمزور/.test(value)) return "alert";
-  if (/mawdu|موضوع/.test(value)) return "ban";
-  if (/quran|قرآن/.test(value)) return "book-marked";
-  if (/fiqh|فقہ|قضاء|فتوی/.test(value)) return "scale";
-  if (/seerah|سیرت|غزو|ہجرت|نبوی/.test(value)) return "route";
+  if (/intro|ØªØ¹Ø§Ø±Ù/.test(value)) return "library";
+  if (/sunnah|Ø³Ù†Øª/.test(value)) return "book-marked";
+  if (/authority|Ø­Ø¬ÛŒØª|Ø¹Ù‚ÛŒØ¯Û|Ø§ÛŒÙ…Ø§Ù†|ØªÙˆØ­ÛŒØ¯/.test(value)) return "shield";
+  if (/types|Ø§Ù‚Ø³Ø§Ù…|Ø·Ø¨Ù‚Ø§Øª/.test(value)) return "layers";
+  if (/history|ØªØ§Ø±ÛŒØ®|Ø¹ÛØ¯|Ø¯ÙˆØ±|ØªØ¯ÙˆÛŒÙ†/.test(value)) return "history";
+  if (/isnad|Ø³Ù†Ø¯|Ø§Ø³Ù†Ø§Ø¯|link/.test(value)) return "link";
+  if (/jarh|ØªØ¹Ø¯ÛŒÙ„|ØªØ­Ù‚ÛŒÙ‚|ØªØ®Ø±ÛŒØ¬|search/.test(value)) return "file-search";
+  if (/sahih|ØµØ­ÛŒØ­/.test(value)) return "badge";
+  if (/daeef|Ø¶Ø¹ÛŒÙ|Ú©Ù…Ø²ÙˆØ±/.test(value)) return "alert";
+  if (/mawdu|Ù…ÙˆØ¶ÙˆØ¹/.test(value)) return "ban";
+  if (/quran|Ù‚Ø±Ø¢Ù†/.test(value)) return "book-marked";
+  if (/fiqh|ÙÙ‚Û|Ù‚Ø¶Ø§Ø¡|ÙØªÙˆÛŒ/.test(value)) return "scale";
+  if (/seerah|Ø³ÛŒØ±Øª|ØºØ²Ùˆ|ÛØ¬Ø±Øª|Ù†Ø¨ÙˆÛŒ/.test(value)) return "route";
   return topic.icon || "file";
 }
 
@@ -160,9 +163,9 @@ function setError(target, message) {
 
 function formatArabicSnippets(text) {
   return text
-    .replace(/﴿([^﴾]+)﴾/g, '<span class="arabic-block" lang="ar" dir="rtl">﴿$1﴾</span>')
-    .replace(/«([^»]*[\u0600-\u06FF][^»]*)»/g, '<span class="arabic-quote" lang="ar" dir="rtl">«$1»</span>')
-    .replace(/“([^”]*[\u064B-\u065F\u0670][^”]*)”/g, '<span class="arabic-quote" lang="ar" dir="rtl">“$1”</span>');
+    .replace(/ï´¿([^ï´¾]+)ï´¾/g, '<span class="arabic-block" lang="ar" dir="rtl">ï´¿$1ï´¾</span>')
+    .replace(/Â«([^Â»]*[\u0600-\u06FF][^Â»]*)Â»/g, '<span class="arabic-quote" lang="ar" dir="rtl">Â«$1Â»</span>')
+    .replace(/â€œ([^â€]*[\u064B-\u065F\u0670][^â€]*)â€/g, '<span class="arabic-quote" lang="ar" dir="rtl">â€œ$1â€</span>');
 }
 
 function formatAnswer(answer = "") {
@@ -177,7 +180,7 @@ function breadcrumbs(items) {
   const root = document.getElementById("breadcrumbs");
   if (!root) return;
   root.innerHTML = items.map((item, index) => {
-    const sep = index ? "<span>←</span>" : "";
+    const sep = index ? "<span>â†</span>" : "";
     const node = item.href ? `<a href="${item.href}">${escapeHTML(item.label)}</a>` : `<span>${escapeHTML(item.label)}</span>`;
     return `${sep}${node}`;
   }).join("");
@@ -194,13 +197,13 @@ async function renderHome() {
         <h3>${escapeHTML(subject.title)}</h3>
         <p>${escapeHTML(subject.description)}</p>
         <span class="meta-row">
-          <span class="pill">${icon("layers")} ${full.groups.length} گروپس</span>
-          <span class="pill">${icon("list")} ${countTopics(full)} موضوعات</span>
+          <span class="pill">${icon("layers")} ${full.groups.length} Ú¯Ø±ÙˆÙ¾Ø³</span>
+          <span class="pill">${icon("list")} ${countTopics(full)} Ù…ÙˆØ¶ÙˆØ¹Ø§Øª</span>
         </span>
       </a>`;
     }).join("");
   } catch (error) {
-    setError(grid, "مواد لوڈ نہیں ہو سکا۔ براہِ کرم data فولڈر چیک کریں۔");
+    setError(grid, "Ù…ÙˆØ§Ø¯ Ù„ÙˆÚˆ Ù†ÛÛŒÚº ÛÙˆ Ø³Ú©Ø§Û” Ø¨Ø±Ø§ÛÙ Ú©Ø±Ù… data ÙÙˆÙ„ÚˆØ± Ú†ÛŒÚ© Ú©Ø±ÛŒÚºÛ”");
   }
 }
 
@@ -211,26 +214,26 @@ async function renderSubject() {
   try {
     const subject = await getSubject(subjectId);
     applyTheme(subject.id);
-    document.title = `${subject.title} | الحیات مرکز علوم اسلامیہ`;
+    document.title = `${subject.title} | Ø§Ù„Ø­ÛŒØ§Øª Ù…Ø±Ú©Ø² Ø¹Ù„ÙˆÙ… Ø§Ø³Ù„Ø§Ù…ÛŒÛ`;
     breadcrumbs([
-      { label: "صفحۂ اول", href: "index.html" },
+      { label: "ØµÙØ­Û‚ Ø§ÙˆÙ„", href: "index.html" },
       { label: subject.title }
     ]);
     hero.innerHTML = `<span class="card-icon">${icon(subjectIcon(subject))}</span>
-      <p class="eyebrow">مضمون</p>
+      <p class="eyebrow">Ù…Ø¶Ù…ÙˆÙ†</p>
       <h1>${escapeHTML(subject.title)}</h1>
-      <p>${escapeHTML(subject.description || "گروپس کھول کر موضوع منتخب کریں۔")}</p>`;
+      <p>${escapeHTML(subject.description || "Ú¯Ø±ÙˆÙ¾Ø³ Ú©Ú¾ÙˆÙ„ Ú©Ø± Ù…ÙˆØ¶ÙˆØ¹ Ù…Ù†ØªØ®Ø¨ Ú©Ø±ÛŒÚºÛ”")}</p>`;
     list.innerHTML = subject.groups.map((group, index) => `<article class="group-card" id="${group.id}">
       <button class="group-toggle" type="button" aria-expanded="${index === 0}" data-group-toggle>
         <span>${icon(groupIcon(group))} ${escapeHTML(group.title)}</span>
-        <span class="pill">${group.topics.length} موضوعات ${icon("chevron")}</span>
+        <span class="pill">${group.topics.length} Ù…ÙˆØ¶ÙˆØ¹Ø§Øª ${icon("chevron")}</span>
       </button>
       <div class="topic-grid" ${index === 0 ? "" : "hidden"}>
         ${group.topics.map((topic) => `<a class="topic-button" href="${topicUrl(subject.id, group.id, topic.id)}">${icon(topicIcon(topic))}<span>${escapeHTML(topic.title)}</span></a>`).join("")}
       </div>
     </article>`).join("");
   } catch (error) {
-    setError(list, "یہ مضمون نہیں مل سکا۔");
+    setError(list, "ÛŒÛ Ù…Ø¶Ù…ÙˆÙ† Ù†ÛÛŒÚº Ù…Ù„ Ø³Ú©Ø§Û”");
   }
 }
 
@@ -251,7 +254,7 @@ async function renderTopic() {
     const next = flat[currentIndex + 1];
     document.title = `${topic.title} | ${subject.title}`;
     breadcrumbs([
-      { label: "صفحۂ اول", href: "index.html" },
+      { label: "ØµÙØ­Û‚ Ø§ÙˆÙ„", href: "index.html" },
       { label: subject.title, href: subjectUrl(subject.id) },
       { label: group.title, href: `${subjectUrl(subject.id)}#${group.id}` },
       { label: topic.title }
@@ -262,10 +265,10 @@ async function renderTopic() {
         <div>
           <p class="eyebrow">${escapeHTML(group.title)}</p>
           <h1>${escapeHTML(topic.title)}</h1>
-          <p class="topic-summary">${escapeHTML(topic.summary || "اس موضوع کا تفصیلی مستند مواد آئندہ Word فائل سے شامل کیا جائے گا۔")}</p>
+          <p class="topic-summary">${escapeHTML(topic.summary || "Ø§Ø³ Ù…ÙˆØ¶ÙˆØ¹ Ú©Ø§ ØªÙØµÛŒÙ„ÛŒ Ù…Ø³ØªÙ†Ø¯ Ù…ÙˆØ§Ø¯ Ø¢Ø¦Ù†Ø¯Û Word ÙØ§Ø¦Ù„ Ø³Û’ Ø´Ø§Ù…Ù„ Ú©ÛŒØ§ Ø¬Ø§Ø¦Û’ Ú¯Ø§Û”")}</p>
           <div class="topic-stats">
-            <span class="stat-chip">${icon("list")} ${questions.length} سوالات</span>
-            <span class="stat-chip">${icon("sparkles")} جواب بٹن سے کھلیں گے</span>
+            <span class="stat-chip">${icon("list")} ${questions.length} Ø³ÙˆØ§Ù„Ø§Øª</span>
+            <span class="stat-chip">${icon("sparkles")} Ø¬ÙˆØ§Ø¨ Ø¨Ù¹Ù† Ø³Û’ Ú©Ú¾Ù„ÛŒÚº Ú¯Û’</span>
           </div>
         </div>
       </header>
@@ -273,30 +276,30 @@ async function renderTopic() {
         ${questions.map((qa, index) => `<section class="qa-item">
           <button class="qa-question" type="button" aria-expanded="false" data-qa-toggle>
             <span>${escapeHTML(qa.q)}</span>
-            <span class="pill">جواب دیکھیں ${icon("chevron")}</span>
+            <span class="pill">Ø¬ÙˆØ§Ø¨ Ø¯ÛŒÚ©Ú¾ÛŒÚº ${icon("chevron")}</span>
           </button>
           <div class="qa-answer">${formatAnswer(qa.a)}</div>
         </section>`).join("")}
       </div>
-      <nav class="topic-nav" aria-label="موضوعات کی نیویگیشن">
-        ${previous ? `<a class="button" href="${topicUrl(subject.id, previous.group.id, previous.topic.id)}">${icon("arrow")} پچھلا موضوع</a>` : "<span></span>"}
-        <a class="button" href="${subjectUrl(subject.id)}">${icon("layers")} مضمون پر واپس جائیں</a>
-        ${next ? `<a class="button" href="${topicUrl(subject.id, next.group.id, next.topic.id)}">اگلا موضوع ${icon("chevron")}</a>` : "<span></span>"}
+      <nav class="topic-nav" aria-label="Ù…ÙˆØ¶ÙˆØ¹Ø§Øª Ú©ÛŒ Ù†ÛŒÙˆÛŒÚ¯ÛŒØ´Ù†">
+        ${previous ? `<a class="button" href="${topicUrl(subject.id, previous.group.id, previous.topic.id)}">${icon("arrow")} Ù¾Ú†Ú¾Ù„Ø§ Ù…ÙˆØ¶ÙˆØ¹</a>` : "<span></span>"}
+        <a class="button" href="${subjectUrl(subject.id)}">${icon("layers")} Ù…Ø¶Ù…ÙˆÙ† Ù¾Ø± ÙˆØ§Ù¾Ø³ Ø¬Ø§Ø¦ÛŒÚº</a>
+        ${next ? `<a class="button" href="${topicUrl(subject.id, next.group.id, next.topic.id)}">Ø§Ú¯Ù„Ø§ Ù…ÙˆØ¶ÙˆØ¹ ${icon("chevron")}</a>` : "<span></span>"}
       </nav>`;
   } catch (error) {
-    setError(view, "یہ موضوع نہیں مل سکا۔");
+    setError(view, "ÛŒÛ Ù…ÙˆØ¶ÙˆØ¹ Ù†ÛÛŒÚº Ù…Ù„ Ø³Ú©Ø§Û”");
   }
 }
 
 function sampleQuestions(title) {
   return [
     {
-      q: `${title} سے متعلق نمونہ سوال کیا ہے؟`,
-      a: "یہ عارضی نمونہ جواب ہے۔ اصل علمی جواب بعد میں Word فائل سے اسی JSON موضوع میں شامل کیا جائے گا۔"
+      q: `${title} Ø³Û’ Ù…ØªØ¹Ù„Ù‚ Ù†Ù…ÙˆÙ†Û Ø³ÙˆØ§Ù„ Ú©ÛŒØ§ ÛÛ’ØŸ`,
+      a: "ÛŒÛ Ø¹Ø§Ø±Ø¶ÛŒ Ù†Ù…ÙˆÙ†Û Ø¬ÙˆØ§Ø¨ ÛÛ’Û” Ø§ØµÙ„ Ø¹Ù„Ù…ÛŒ Ø¬ÙˆØ§Ø¨ Ø¨Ø¹Ø¯ Ù…ÛŒÚº Word ÙØ§Ø¦Ù„ Ø³Û’ Ø§Ø³ÛŒ JSON Ù…ÙˆØ¶ÙˆØ¹ Ù…ÛŒÚº Ø´Ø§Ù…Ù„ Ú©ÛŒØ§ Ø¬Ø§Ø¦Û’ Ú¯Ø§Û”"
     },
     {
-      q: "آئندہ مواد کس طرح شامل ہوگا؟",
-      a: "ہر موضوع کی سوال و جواب فائل پڑھ کر اسی مضمون کے JSON میں صرف متعلقہ topic کے questions array کو اپ ڈیٹ کیا جائے گا۔"
+      q: "Ø¢Ø¦Ù†Ø¯Û Ù…ÙˆØ§Ø¯ Ú©Ø³ Ø·Ø±Ø­ Ø´Ø§Ù…Ù„ ÛÙˆÚ¯Ø§ØŸ",
+      a: "ÛØ± Ù…ÙˆØ¶ÙˆØ¹ Ú©ÛŒ Ø³ÙˆØ§Ù„ Ùˆ Ø¬ÙˆØ§Ø¨ ÙØ§Ø¦Ù„ Ù¾Ú‘Ú¾ Ú©Ø± Ø§Ø³ÛŒ Ù…Ø¶Ù…ÙˆÙ† Ú©Û’ JSON Ù…ÛŒÚº ØµØ±Ù Ù…ØªØ¹Ù„Ù‚Û topic Ú©Û’ questions array Ú©Ùˆ Ø§Ù¾ ÚˆÛŒÙ¹ Ú©ÛŒØ§ Ø¬Ø§Ø¦Û’ Ú¯Ø§Û”"
     }
   ];
 }
